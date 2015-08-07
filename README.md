@@ -5,7 +5,7 @@ XKit is required. Get the last official release on the [official download page](
 
 With XKit installed, go to https://www.tumblr.com/xkit_editor and add a new extension named exactly "torcado_channels".
 
-Paste the contents of the ["torcado_channels.js"](https://github.com/torcado194/torcado_channels/blob/master/torcado_channels.js) file in the "script" tab of the new extension, and the contents of the ["torcado_channels.css"](https://github.com/torcado194/torcado_channels/bloblmaster/torcado_channels.css) file in the "stylesheet" tab.
+Paste the contents of the ["torcado_channels.js"](https://github.com/torcado194/torcado_channels/blob/master/torcado_channels.js) file in the "script" tab of the new extension, the contents of the ["torcado_channels.css"](https://github.com/torcado194/torcado_channels/blob/master/torcado_channels.css) file in the "stylesheet" tab, and the contents of the ["icon.txt"](https://github.com/torcado194/torcado_channels/blob/master/icon.txt) file in the "icon" tab.
 
 ## How To Use
 A new control panel will be added beneath the "New Post" controls.
