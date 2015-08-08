@@ -839,6 +839,7 @@
 	border-radius: 2px;
     overflow: hidden;
 	background-color: rgba(0,0,0,0.25);
+	cursor: pointer;
 }
 .torcado_blogPreviewAddButtonBar{
 	position: absolute;
@@ -1024,6 +1025,7 @@
 	border-radius: 2px;
 	overflow: hidden;
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAAK9JREFUWEfFl8EJwzAAxLL/Ct3VblMqOIgfUQ5cgbDRgf8+5px/dRl3uozGMcbrc3753W+308uDD01UY2hNVGNoTVRjaE1UY2hNVGNoTVRjaE1UY2hNVGNoTVRjaE1UY2hNVGNoTVRjaE1UY2hNVGNoTVRjaE1UY2hNVGNoTVRjaE1UY2hNVGNoTVRjaE1UY2hNVGNoTVRjaE1UY2hNVGN47N1v2KqdXh7c7TLucx5vlwjw3ywNEowAAAAASUVORK5CYII=);
+	cursor: pointer;
 }
 .torcado_followerAddButtonPlusWrapper {
 	position: relative;
