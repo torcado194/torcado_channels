@@ -32,7 +32,7 @@ You can also delete a channel entirely, if you'd like.
 This is what toggles the core function of the extension. When on, you will only see posts on your dash from blogs sorted under the currently active channels.
 To activate/deactivate a channel, just click on the channel button.
 
-(A more in-depth description of this functionality can be found on the [filter posts wiki page].
+(A more in-depth description of this functionality can be found on the [filter posts wiki page](https://github.com/torcado194/torcado_channels/wiki/Filter-Posts).
 
 #### Coloring posts
 Posts sorted under a channel will have their background color changed to match the color of the channel.
@@ -45,7 +45,7 @@ You can copy this data to save it elsewhere, or to send to a different computer 
 
 To import channel data, delete the contents of the textarea and paste in the new data, then click "import".
 
-You can also edit the data manually directly in the textarea to change settings. Check the [wiki page on channel data] to see how it's formatted
+You can also edit the data manually directly in the textarea to change settings. Check the [wiki page on channel data](https://github.com/torcado194/torcado_channels/wiki/Channel-Data) to see how it's formatted
 
 BE CAREFUL WHEN IMPORTING/CHANGING CHANNEL DATA. There is no backup for this. I suggest saving the original data elsewhere just in case.
 
