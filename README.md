@@ -49,5 +49,8 @@ You can also edit the data manually directly in the textarea to change settings.
 
 BE CAREFUL WHEN IMPORTING/CHANGING CHANNEL DATA. There is no backup for this. I suggest saving the original data elsewhere just in case.
 
+#### Tips
+Hold SHIFT and click on a channel to activate that channel on its own, deactivating all others
+
 ## THANK YOU
 I hope you find use in this extension! If you find any bugs or issues, or have any suggestions, submit them in this repository or shoot me an ask at http://www.torcado.tumblr.com!
