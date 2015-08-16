@@ -1,5 +1,5 @@
 //* TITLE torcado_channels **//
-//* VERSION 0.1.3 REV A **//
+//* VERSION 1.0.0 REV A **//
 //* DESCRIPTION Custom Dashboard Channels **//
 //* DEVELOPER torcado **//
 //* FRAME false **//
