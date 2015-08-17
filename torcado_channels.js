@@ -1,5 +1,5 @@
 //* TITLE torcado_channels **//
-//* VERSION 0.1.3 REV A **//
+//* VERSION 1.0.1 REV A **//
 //* DESCRIPTION Custom Dashboard Channels **//
 //* DEVELOPER torcado **//
 //* FRAME false **//
@@ -63,6 +63,8 @@ XKit.extensions.torcado_channels = new Object({
 	run: function () {
 		//Start running
 		this.running = true;
+		//Welcome message
+		console.log("torcado channels is running! Thanks for trying it out");
 		
 		//Check URL
 		//+ Run main functions only in dashboard
@@ -87,10 +89,7 @@ XKit.extensions.torcado_channels = new Object({
 			}
 			//Run main function for setup, DOM manipulation, and user input
 			XKit.extensions.torcado_channels.torcado_init();
-			//Welcome message
-			console.log("torcado channels is running! Thanks for trying it out");
-			//Initialize css
-			XKit.tools.init_css("torcado_channels");
+			
 			//Listen for newly added posts
 			XKit.post_listener.add("torcado_channels", XKit.extensions.torcado_channels.filter_posts);
 			//Filter posts on first pass
@@ -116,6 +115,8 @@ XKit.extensions.torcado_channels = new Object({
 			console.log("NOT IN DASHBOARD");
 			console.log(window.location.href);
 		}
+		//Initialize css
+		XKit.tools.init_css("torcado_channels");
 		XKit.extensions.torcado_channels.blog_preview_observe();
 		XKit.extensions.torcado_channels.channel_button_detection();
 	},
@@ -131,7 +132,7 @@ XKit.extensions.torcado_channels = new Object({
 		$("body").prepend("<div id=\"torcado_tempHolder\"></div>");
 		//Control Panel Element
 		$("#new_post_buttons").after(
-			"<div id=\"torcado_controlPanel\"><div class=\"torcado_controlPanelMain\"></div><div class=\"torcado_controlPanelSettingsWrapper\"><div class=\"torcado_controlPanelExportButton\"></div><div class=\"torcado_controlPanelSwitchWrapper\"><p>color posts:</p><div class=\"torcado_controlPanelSwitchBorder\" setting=\"colorPosts\"  state=\"on\"><div class=\"torcado_controlPanelSwitchBar\"></div></div></div><div class=\"torcado_controlPanelSwitchWrapper\"><div class=\"torcado_controlPanelSwitchHighlight\"></div><p>filter posts:</p><div class=\"torcado_controlPanelSwitchBorder\" setting=\"filterPosts\" state=\"on\"><div class=\"torcado_controlPanelSwitchBar\"></div></div></div></div><div class=\"torcado_controlPanelSidebar\"><div class=\"torcado_controlPanelIconWrapper\"><div class=\"torcado_controlPanelIconOutline\"></div><div class=\"torcado_controlPanelIconColor1\"></div><div class=\"torcado_controlPanelIconColor2\"></div><div class=\"torcado_controlPanelIconColor3\"></div><div class=\"torcado_controlPanelIconColor4\"></div></div><div class=\"torcado_controlPanelSidebarIcons\"><div class=\"torcado_refreshWarning\"><div class=\"torcado_tooltip\">A refresh is required to update changes. (read more about what this means <a>here</a>)</div></div></div></div></div>"
+			"<div id=\"torcado_controlPanel\"><div class=\"torcado_controlPanelMain\"></div><div class=\"torcado_controlPanelSettingsWrapper\"><div class=\"torcado_controlPanelExportButton\"></div><div class=\"torcado_controlPanelSwitchWrapper\"><p>color posts:</p><div class=\"torcado_controlPanelSwitchBorder\" setting=\"colorPosts\"  state=\"on\"><div class=\"torcado_controlPanelSwitchBar\"></div></div></div><div class=\"torcado_controlPanelSwitchWrapper\"><div class=\"torcado_controlPanelSwitchHighlight\"></div><p>filter posts:</p><div class=\"torcado_controlPanelSwitchBorder\" setting=\"filterPosts\" state=\"on\"><div class=\"torcado_controlPanelSwitchBar\"></div></div></div></div><div class=\"torcado_controlPanelSidebar\"><div class=\"torcado_controlPanelIconWrapper\"><div class=\"torcado_controlPanelIconOutline\"></div><div class=\"torcado_controlPanelIconColor1\"></div><div class=\"torcado_controlPanelIconColor2\"></div><div class=\"torcado_controlPanelIconColor3\"></div><div class=\"torcado_controlPanelIconColor4\"></div></div><div class=\"torcado_controlPanelSidebarIcons\"><div class=\"torcado_refreshWarning\"><div class=\"torcado_tooltip\">A refresh is required to update changes. (read more about what this means <a href=\"https://github.com/torcado194/torcado_channels/wiki/Filter-Posts#refresh-warning\">here</a>)</div></div></div></div></div>"
 		);
 		$(".torcado_controlPanelSwitchHighlight").hide();
 		$(".torcado_tooltip").hide();
@@ -157,7 +158,6 @@ XKit.extensions.torcado_channels = new Object({
 		
 		//Switch functions
 		$(".torcado_controlPanelSwitchBorder").each(function (event) {
-			console.log(settings[$(this).attr("setting")]);
 			if (settings[$(this).attr("setting")]) {
 				$(this).attr("state", "on");
 				$(".torcado_controlPanelSwitchBar", this).css({
@@ -175,7 +175,6 @@ XKit.extensions.torcado_channels = new Object({
 			}
 		});
 		$(document).on("click", ".torcado_controlPanelSwitchBorder", function (event) {
-			console.log($(this).attr("state"));
 			if ($(this).attr("state") == "on") {
 				$(this).attr("state", "off");
 				$(".torcado_controlPanelSwitchBar", this).css({
@@ -312,7 +311,6 @@ XKit.extensions.torcado_channels = new Object({
 		$newChannelForm.hide();
 		$(document).on("click", ".torcado_controlPanelNewChannelButton", function (event) {
 			if (event.target == this) {
-				console.log("FDGDGR");
 				$(this)[0].appendChild($newChannelForm[0]);
 				$newChannelForm.stop(true, false).fadeIn(200);
 				$("#torcado_newChannelFormInput").focus();
@@ -382,7 +380,6 @@ XKit.extensions.torcado_channels = new Object({
 				});
 				$(".torcado_addUserButton").css({"width": ""});
 			}
-			console.log($(event.target));
 		});
 		$(document).on("click", ".torcado_channelSettingsRandomizeColor", function (event) {
 			channelSettingsPreviewColor = "#" + XKit.extensions.torcado_channels.hslToHex((Math.random() * 360),100 - (Math.random() * 80),95 - (Math.random() * 20));
@@ -515,7 +512,6 @@ XKit.extensions.torcado_channels = new Object({
 		$(document).on("click", ".torcado_controlPanelExportButton", function (event) {
 			//TODO: POPUP
 			XKit.extensions.torcado_channels.eventFire(document.getElementById("Compose-button"), "click");
-			console.log($(".fast-compose"));
 			$(".tab-post-types").remove();
 			$("body").append("<div class=\"torcado_overlay\" style=\"display: none\"><div class=\"torcado_exportBox\"><div class=\"torcado_exportHeader\"><h1>Channel Data</h1></div><textarea id=\"torcado_exportTextarea\" class=\"torcado_exportInput\"></textarea><div class=\"torcado_exportDescription\">Copy this data to store it elsewhere or import on a different computer/account.<br>Paste existing channel data or edit the data manually to change settings.</div><div class=\"torcado_exportControls\"><div class=\"torcado_button torcado_exportClose\"><p>Close</p></div><div class=\"torcado_button torcado_exportImport\"><p>Import</p></div></div></div></div>");
 			$(".torcado_overlay").fadeIn(400);
@@ -534,9 +530,7 @@ XKit.extensions.torcado_channels = new Object({
 		$(document).on("click", ".torcado_exportImport", function (event) {
 			if(!($(this).hasClass("torcado_buttonDisabled"))){
 				if(confirm("Are you sure you want to import this data? (BE CAREFUL WHEN IMPORTING BAD DATA, I suggest saving the original data elsewhere just in case)")){
-					console.log(document.getElementById("torcado_exportTextarea").value);
 					XKit.storage.set("torcado_channels", "channels", JSON.parse(document.getElementById("torcado_exportTextarea").value));
-					console.log(XKit.storage.get("torcado_channels", "channels", channels));
 					channels = XKit.storage.get("torcado_channels", "channels", channels);
 					XKit.extensions.torcado_channels.eventFire(document.getElementsByClassName("post-tab-switching")[0], "click");
 					XKit.extensions.torcado_channels.channelsUpdated();
@@ -572,7 +566,6 @@ XKit.extensions.torcado_channels = new Object({
 						$(this).addClass("torcado_recommendedWaiting");
 					}
 					if($(this).nextAll("#torcado_controlPanel").length != 0){
-						console.log($(this).nextAll());
 						debugger;
 						XKit.extensions.torcado_channels.resetControlPanelPosition();
 					}
@@ -605,7 +598,6 @@ XKit.extensions.torcado_channels = new Object({
 	},
 	
 	following_page_manipulation: function(){
-		console.log(channels);
 		XKit.extensions.torcado_channels.updateChannelButtonHTML();
 		$(".follower").not("#invite_someone").each(function(){
 			$(".info", this).after("<div class=\"torcado_followerAddButtonWrapper\"><div class=\"torcado_followerAddButton\"><div class=\"torcado_followerAddButtonPlusWrapper\"><div class=\"torcado_followerAddButtonPlusIcon\"></div></div></div><div class=\"torcado_followerAddUserChannels\"><span class=\"torcado_followerAddUserChannelsSpan\"></span></div></div>")
@@ -741,12 +733,9 @@ XKit.extensions.torcado_channels = new Object({
 			mutations.forEach(function (mutation) {
 				for (var i = 0; i < mutation.addedNodes.length; i++) {
 					insertedNodes.push(mutation.addedNodes[i]);
-					console.log(mutation.addedNodes[i]);
 					if(($(mutation.addedNodes[i]).find(".navigation").length != 0) && !(previewButtonAdded)){
 						//if ($(mutation.addedNodes[i]).hasClass("navigation")){
 						//previewButtonAdded = true;
-						console.log("SFEWFEWFWEFEW");
-						console.log($(mutation.addedNodes[i]).find(".navigation"));
 						$(mutation.addedNodes[i]).find(".navigation").append("<div class=\"torcado_blogPreviewAddButtonWrapper\"><div class=\"torcado_blogPreviewAddButton\"><div class=\"torcado_blogPreviewAddButtonBar\"></div><div class=\"torcado_blogPreviewAddButtonBar\"></div><div class=\"torcado_blogPreviewAddButtonBar\"></div><div class=\"torcado_blogPreviewAddButtonPlusWrapper\"><div class=\"torcado_blogPreviewAddButtonPlusIcon\"></div></div></div><div class=\"torcado_blogPreviewAddUserChannels\"><span class=\"torcado_blogPreviewAddUserChannelsSpan\"></span></div></div>");
 						$(mutation.addedNodes[i]).find(".torcado_blogPreviewAddUserChannelsSpan").append(XKit.extensions.torcado_channels.addChannelHTML);
 					}
@@ -755,10 +744,8 @@ XKit.extensions.torcado_channels = new Object({
 		});
 
 		var previewObserver = new MutationObserver(function (mutations) {
-			console.log(mutations);
 			mutations.forEach(function (mutation) {
 				for (var i = 0; i < mutation.addedNodes.length; i++) {
-					console.log(mutation.addedNodes[i]);
 					insertedNodes.push(mutation.addedNodes[i]);
 
 					if($(mutation.addedNodes[i]).hasClass("tumblelog_popover")){
@@ -766,11 +753,7 @@ XKit.extensions.torcado_channels = new Object({
 							$(mutation.addedNodes[i]).find(".navigation").append("<div class=\"torcado_blogPreviewAddButtonWrapper\"><div class=\"torcado_blogPreviewAddButton\"><div class=\"torcado_blogPreviewAddButtonBar\"></div><div class=\"torcado_blogPreviewAddButtonBar\"></div><div class=\"torcado_blogPreviewAddButtonBar\"></div><div class=\"torcado_blogPreviewAddButtonPlusWrapper\"><div class=\"torcado_blogPreviewAddButtonPlusIcon\"></div></div></div><div class=\"torcado_blogPreviewAddUserChannels\"><span class=\"torcado_blogPreviewAddUserChannelsSpan\"></span></div></div>");
 							$(mutation.addedNodes[i]).find(".torcado_blogPreviewAddUserChannelsSpan").append(XKit.extensions.torcado_channels.addChannelHTML);
 						} else {
-							console.log("NEW PREVIEW");
-							console.log(mutation.addedNodes[i].parentNode)
-							console.log(document.body)
 							var curNode = mutation.addedNodes[i];
-							console.log(curNode)
 							newPreviewObserver.observe(mutation.addedNodes[i], {
 								childList: true,
 								subtree: true,
@@ -779,7 +762,6 @@ XKit.extensions.torcado_channels = new Object({
 					}
 				};
 				for (var j = 0; j < mutation.removedNodes.length; j++) {
-					console.log(mutation.removedNodes[i]);
 					if($(mutation.removedNodes[i]).hasClass("tumblelog_popover")){
 						//newPreviewObserver.disconnect();
 					}
@@ -840,7 +822,6 @@ XKit.extensions.torcado_channels = new Object({
 						channelsUpdated = true;
 					}
 					if (sameKey && sameName) {
-						console.log("ALREADY IN CHANNEL");
 					}
 					if ((!sameKey) && (!sameName)) {
 						channels[i].blogs.push({
@@ -877,7 +858,6 @@ XKit.extensions.torcado_channels = new Object({
 	
 	removeBlogArrayFromChannel: function (blogArray, channel) {
 		var newBlogArray = [];
-		console.log(channels);
 		for (var i = 0; i < channels.length; i++) {
 			if (channels[i].name == channel) {
 				for (var j = 0; j < blogArray.length; j++) {
@@ -895,7 +875,6 @@ XKit.extensions.torcado_channels = new Object({
 	},
 	
 	changeChannelName: function(channel, name) {
-		console.log(name);
 		for (var i = 0; i < channels.length; i++) {
 			if (channels[i].name == channel) {
 				channels[i].name = name;
@@ -905,7 +884,6 @@ XKit.extensions.torcado_channels = new Object({
 	},
 	
 	changeChannelColor: function(channel, color) {
-		console.log(color);
 		for (var i = 0; i < channels.length; i++) {
 			if (channels[i].name == channel) {
 				channels[i].color = color;
@@ -976,7 +954,6 @@ XKit.extensions.torcado_channels = new Object({
 		//XKit.extensions.torcado_channels.getChannelButtons();
 		XKit.extensions.torcado_channels.updateControlPanel();
 		//XKit.extensions.torcado_channels.updateChannelButtonHTML();
-		console.log(channels);
 	},
 	
 	updateChannelButtonHTML: function(){
@@ -992,10 +969,8 @@ XKit.extensions.torcado_channels = new Object({
 			}
 			$(this).find(".torcado_addUserWrapper").append("<div class=\"torcado_addUserChannels\"><span class=\"torcado_addUserChannelsSpan\"></span></div>");
 			$(this).find(".torcado_addUserChannelsSpan").append(XKit.extensions.torcado_channels.addChannelHTML);
-			console.log(this);
 		});
 		$(".follower").each(function () {
-			console.log("IF YOU SEE THIS, SET URL CONDITIONAL");
 			if($(this).find(".torcado_followerAddUserChannels").length == 0) {
 				
 			} else {
@@ -1023,7 +998,6 @@ XKit.extensions.torcado_channels = new Object({
 				"border-bottom": "2px solid rgba(0, 0, 0, 0.2)"
 			});
 		}*/
-		console.log(checkBlog);
 		$(".torcado_addUserChannelButton", post).each(function () {
 			if (XKit.extensions.torcado_channels.buttonCheckChannel($(this).attr("channel"), checkBlog)) {
 				$(".torcado_addUserChannelButtonText", this).css({
@@ -1047,13 +1021,11 @@ XKit.extensions.torcado_channels = new Object({
 					"background-color": "",
 					"border-bottom": "4px solid rgba(0, 0, 0, 0.2)"
 				});
-				console.log("yerp");
 			} else {
 				$(".torcado_addUserChannelButtonText", this).css({
 					"background-color": "#FFF",
 					"border-bottom": "2px solid rgba(0, 0, 0, 0.2)"
 				});
-				console.log("nop");
 			}
 		});
 	},
@@ -1157,7 +1129,6 @@ XKit.extensions.torcado_channels = new Object({
 					key: ""
 				});
 			} else {
-				console.log(channels_array[n] + " ALREADY IN CHANNEL");
 			}
 			
 		}
@@ -1419,7 +1390,6 @@ XKit.extensions.torcado_channels = new Object({
 							inActiveChannels.push(channels[n]);
 							if (channels[n].blogs[i].name != blog.name) {
 								channels[n].blogs[i].name = blog.name;
-								console.log("OUTDATED TUMBLELOG-NAME, UPDATED");
 							}
 						}
 					} else if (channels[n].blogs[i].name == blog.name) {
@@ -1427,17 +1397,13 @@ XKit.extensions.torcado_channels = new Object({
 							inActiveChannels.push(channels[n]);
 						}
 						XKit.extensions.torcado_channels.get_key_for_name(channels[n].blogs[i]);
-						console.log("NO TUMBLELOG-KEY, UPDATE PUSHED");
 					}
 				}
 			}
 		} 
-		console.log(inActiveChannels)
 		if (inActiveChannels.length == 0) {
-			console.log(inActiveChannels)
 			return false;
 		} else {
-			console.log(inActiveChannels)
 			return inActiveChannels;
 		}
 	},
@@ -1451,7 +1417,6 @@ XKit.extensions.torcado_channels = new Object({
 						inChannels.push(channels[n]);
 						if (channels[n].blogs[i].name != blog.name) {
 							channels[n].blogs[i].name = blog.name;
-							console.log("OUTDATED TUMBLELOG-NAME, UPDATED");
 						}
 					} else if (channels[n].blogs[i].name == blog.name) {
 						XKit.extensions.torcado_channels.get_key_for_name(channels[n].blogs[i]);
@@ -1460,12 +1425,9 @@ XKit.extensions.torcado_channels = new Object({
 				}
 			}
 		}
-		console.log(inChannels)
 		if (inChannels.length == 0) {
-			console.log(false)
 			return false;
 		} else {
-			console.log(inChannels)
 			return inChannels;
 		}
 	},
