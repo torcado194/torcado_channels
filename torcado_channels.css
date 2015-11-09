@@ -39,7 +39,32 @@
 	white-space: normal;
 	line-height: 30px;
 }
-/*following page*/
+.reblog-list-item {
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+.reblog-list-item.contributed-content {
+    border-top: 1px solid rgba(0,0,0,.2);
+}
+.reblog-list, .reblog-trail--original-post{
+    border-top: 1px solid rgba(0,0,0,.2);
+}
+.post-content .external-image-wrapper, .reblog-content .external-image-wrapper, .post .post_content .external-image-wrapper, .post .reblog-list .external-image-wrapper, .post .post_body .external-image-wrapper {
+    border: 1px dashed rgba(0,0,0,.4);
+    color: rgba(0,0,0,.4);
+}
+.reblog-list-item .reblog-tumblelog-deactivated-status {
+    color: rgba(0,0,0,.3);
+}
+.reblog_follow_button:not(.icon_follow_rounded_small)::before {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAAFdJREFUKFOVklsKwCAMBHM89SC9/w1iLNtiYNR2YcB9/EVz92pmJbgOFG0/jR/GFosdHErYYShhl8xCaZPMQmkzmzeUsMNQwo7CHT8PF+du94MHM/E1vHWjOjv7nyrSWQAAAABJRU5ErkJggg==");
+}
+.reblog_follow_button i {
+    background-color: rgba(0,0,0,.35) !important;
+}
+.post_full .post_header .post_info .reblog_follow_button {
+    color: inherit;
+}
+    /*following page*/
 .follower .info {
 	float: left;
 	width: 346px;
@@ -160,7 +185,9 @@
 	border-radius: 0 3px 3px 0;
 	box-sizing: border-box;
 	opacity: 0.35;
+	-webkit-transition-duration: 0.25s;
 	transition-duration: 0.25s;
+	-webkit-transition-timing-function: ease;
 	transition-timing-function: ease;
 }
 .torcado_controlPanelChannelButtonWrapper:hover .torcado_controlPanelChannelSettingsWrapper{
@@ -217,6 +244,8 @@
 	position: absolute;
 	top: 70px;
 	margin-left: 31px;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
 	transform: translateX(-50%);
 	white-space: nowrap;
 	padding: 4px 4px 3px;
@@ -312,6 +341,7 @@
     left: 22px;
     opacity: 0.3;
     cursor: pointer;
+	-webkit-transition-duration: 0.25s;
 	transition-duration: 0.25s;
 }
 .torcado_channelSettingsRandomizeColor:hover {
@@ -442,7 +472,9 @@
 	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABp0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuMTFH80I3AAACCElEQVR4Xu3bUU5DQQiF4e6qa3F1LlUvTa6BXxyw4UrD2OQzmSlwhhffejs+98P74WPl+MgfgzVZnHNiXRbnCNY4ZGfZPV5eMECwJotzTqzL4hzBmh/I7u4X3zBAsCaLc06sy+IcwZoFc3jzhk0iO6p9HxdfBxZPpXc2BxZOpXc2BxZOpXc2BxZOpXc2BxZOpXc2BxZOpXd2C3biXu7EvdyJe7kT9/IK5h9PAvuvIp8/CdU5GeyvhKyW0BD7KyGrJTTE/krIagkNsb8SslpCQ+yvhKyW0BD7KyGrJTTE/krIagkNsb8SslpCQ+yvhKyW0BD7KyGrJTTE/krIei5U970Cvm8FvSVD2vF9K+gtGdKO71sxvV5BhhnyAvi+LPcygw/oxvdluZcZfEA3vi/LvczgA7rxfVnuZQYf0I3vy3IvM/iAbnxflnyeGqL7XgHft4LekiHt+L4V9JYMacf3raD3uSG/pXMy2F8JWS2hIfZXQlZLaIj9lZDVEhpifyVktYSG2F8JWS2hIfZXQlZLaIj9lZDVEhpifyVktYSG2F8JWS2hIfZXQlZLaIj9lUyWV3AFE5rA/qu4lztxL3fiXu7EvdyJfOTvA7+cSu9sDiycSu9sDiycSu9sDiycSu9sDiycSu9sDiycSu/Mw94/nFzhIMGaLM45sS6LcwRrFv5/PL3xz+dv908JMPNUNVpBNgAAAABJRU5ErkJggg==");
 	background-repeat: no-repeat;
 	opacity: 0.2;
+	-webkit-transition-duration: 0.25s;
 	transition-duration: 0.25s;
+	-webkit-transition-timing-function: ease;
 	transition-timing-function: ease;
 	cursor: pointer;
 }
@@ -489,6 +521,7 @@
     left: 22px;
     opacity: 0.3;
     cursor: pointer;
+	-webkit-transition-duration: 0.25s;
 	transition-duration: 0.25s;
 }
 .torcado_newChannelRandomizeColor:hover {
@@ -519,6 +552,7 @@
 	margin: 5px;
 	border-radius: 2px;
 	opacity: 0.5;
+	-webkit-transition-duration: 0.25s;
 	transition-duration: 0.25s;
 	cursor: pointer;
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAA15JREFUaEPtm8trE1EUxjOm8YVFulIQRLeV7nTnvsskTRRRKUmTKPgniKWlJE0VpFDFvJxpsSs3Ko2Kq7ZgEe2MC7cF3Sk0InRhu7LoOUkG0psztzPJ3HnUFH7c8OXcmfNl7v0yadMA/oQVdTA8/3kJ2Ab+ukQNiI7NyMFUviKl8k8lfAxakNWwZ7Oabm6reRK3qaWny6Fb2ScSjEfTuaIE2o/wvDbRqmVypRBbR2mpvCwF4AB45aiTuYLeII7YtK5HFDWrawhbx2rpXDk0NqME0aCby7INtuk9zyvalBlzutZYoq0H8ABs00TNpBlzmWwB9qHS5zmDbNNUDTDJ1lGG07lSfQ9SB3ANtmmqpg4sV545HPWQoQ/gEmzTVI0OL3haQ4ac7BbsFaFq9sAJHr+GDEVb8Pg9ZCjagsffIUPBBI/vQ4ZCD56DEzIUzeDxS8j8ZGtMMu6TkNFGQMePUmQ9h+/x8nvvLdFWc+zVtKr5ImTMGKE0z4ZMvLR61ooRnuZkyPwGxoFKi2bEy1h57YwVI5Tm5J3MRlhRhzK54qGbsy/6iedFgek7Itagoi3FKmsDaA5f4dtTc05viZqoE/6BO4p7iQeLfa3mMtPlw0StUEQY3IzKn4YhxdrMoUbUC8Vugx8gIM4bmUONmCMUOw0+vj5XPcEzhxoxTyh2GMRfO95gjVDmUGPmCqfbE24AQ2bNoQb3lgkgGVHW0zA3AWPGnKbehXEToPowpBuDr4CTVsx1q4Hhy0wP+9KJwfpbQKywIokyYqQl7y8cI/rhYtlgRF4fFW2Ep1E98bBuUFGPO2HESKN64tGBQW129OFzuKEVa8RIo3ri0ckeRF5fLSyfFmmE0uLF1SNEL1w6NYh8jcofL4kwYqTB/r9D9MGlG4PIDpC00jTULzTQnjXHRVOaor2DcReg+jCkW4M6pWuP3vSbuSLEXKHYeUIVEvbcfleTmCcUu1/RX8Awb6ky9cIRsWR2Yb9MwCeLIHU1iXqhCNwT2ltggL2adK04RG/6bxDtFw9KyBixA+GTQXNXCiuniOeF4uQrugxL9guhC8XxJeM0PYN+p2fQ7/QM+p3/wqCnvhBrM9to0FNfabaZKhjUvPSldDvZisjqYP3v9PDgAghu/1uBXaCHasNcIPAPImNuGmc59dwAAAAASUVORK5CYII=);
@@ -603,6 +637,8 @@
 	border-width: 3px 1px 1px;
 	border-style: solid;
 	border-color: rgba(0, 0, 0, 0.3);
+	-webkit-border-image: none;
+	-o-border-image: none;
 	border-image: none;
 	border-radius: 3px;
 	box-sizing: border-box;
@@ -623,7 +659,9 @@
 	background-color: rgb(82, 158, 204);
 	top: -3px;
 	left: 31px;
+	-webkit-transition-duration: 0.25s;
 	transition-duration: 0.25s;
+	-webkit-transition-timing-function: ease;
 	transition-timing-function: ease;
 }
 #torcado_newChannelWrapper{
@@ -750,6 +788,7 @@
 	position: relative;
 	background-color: white;
 	border-radius: 3px;
+	-webkit-transition: width 0.5s ease;
 	transition: width 0.5s ease;
 	cursor: pointer;
 }
@@ -765,7 +804,9 @@
 	right: 0px;
 	bottom: 0px;
 	margin: auto;
+	-webkit-transition-duration: 0.5s;
 	transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease;
 	transition-timing-function: ease;
 }
 .torcado_addUserButtonIconAfter{
@@ -779,7 +820,9 @@
 	top: 0;
 	bottom: 0;
 	margin: auto;
+	-webkit-transition-duration: 0.5s;
 	transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease;
 	transition-timing-function: ease;
 }
 .torcado_addUserWrapper:hover .torcado_addUserButton{
@@ -798,7 +841,9 @@
 	max-height: 300px;
 	overflow-y: hidden;
 	height: 0;
+	-webkit-transition-timing-function: ease;
 	transition-timing-function: ease;
+	-webkit-transition-duration: 0.8s;
 	transition-duration: 0.8s;
 	cursor: pointer;
 	position: relative;
@@ -847,6 +892,7 @@
 	width: 5px;
 	height: 32px;
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAgCAYAAADaDrJgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAACVJREFUKFNj+P//fwUQI4NQkCAIo4BRQTQwKogGqCCIlhT/hwIA011dW1T2PxgAAAAASUVORK5CYII=);
+	-webkit-transition-duration: 0.5s;
 	transition-duration: 0.5s;
 }
 .torcado_blogPreviewAddButton .torcado_blogPreviewAddButtonBar:nth-child(2){
@@ -870,6 +916,7 @@
 	width: 14px;
 	height: 32px;
 	border-radius: 3px;
+	-webkit-transition-duration: 0.5s;
 	transition-duration: 0.5s;
 	overflow: hidden;
 }
@@ -884,6 +931,7 @@
     top: 0;
     bottom: 0;
     margin: auto;
+    -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
 .torcado_blogPreviewAddButtonPlusIcon:before{
@@ -915,7 +963,9 @@
 	max-height: 116px;
 	overflow-y: hidden;
 	height: 0;
+	-webkit-transition-timing-function: ease;
 	transition-timing-function: ease;
+	-webkit-transition-duration: 0.8s;
 	transition-duration: 0.8s;
 	cursor: pointer;
 	position: relative;
@@ -1014,6 +1064,7 @@
 	background-color: #444;
 	position: relative;
 	border-radius: 3px;
+	-webkit-transition-duration: 0.5s;
 	transition-duration: 0.5s;
 }
 .torcado_followerAddButton {
@@ -1034,6 +1085,7 @@
 	left: 2px;
 	height: 28px;
 	border-radius: 3px;
+	-webkit-transition-duration: 0.5s;
 	transition-duration: 0.5s;
 	overflow: hidden;
 	background-color: white;
@@ -1052,6 +1104,7 @@
 	top: 0;
 	bottom: 0;
 	margin: auto;
+	-webkit-transition-duration: 0.5s;
 	transition-duration: 0.5s;
 	background-color: #444;
 }
@@ -1064,7 +1117,9 @@
 	max-height: 300px;
 	overflow-y: hidden;
 	height: 0;
+	-webkit-transition-timing-function: ease;
 	transition-timing-function: ease;
+	-webkit-transition-duration: 0.8s;
 	transition-duration: 0.8s;
 	cursor: pointer;
 	position: relative;
