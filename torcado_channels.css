@@ -64,6 +64,10 @@
 .post_full .post_header .post_info .reblog_follow_button {
     color: inherit;
 }
+.post_controls .post_control.messaging::before {
+    color: hsla(0, 0%, 0%, 0.34);
+}
+
     /*following page*/
 .follower .info {
 	float: left;
