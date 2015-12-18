@@ -65,9 +65,11 @@
     color: inherit;
 }
 .post_controls .post_control.messaging::before {
-    color: hsla(0, 0%, 0%, 0.34);
+    color: rgba(0, 0, 0, 0.4);
 }
-
+.flag--dashboard-icon-revolution .post_controls .post_control::before{
+    color: rgba(0, 0, 0, 0.4);
+}
     /*following page*/
 .follower .info {
 	float: left;
