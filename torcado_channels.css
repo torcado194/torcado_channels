@@ -1,43 +1,43 @@
 .post .post-source-footer{
-	background: none repeat scroll 0% 0%;
+    background: none repeat scroll 0% 0%;
 }
 .post .post-content blockquote, .post .post_content blockquote, .post .reblog-list blockquote, .post .post_body blockquote {
     border-left: 2px solid rgba(0, 0, 0, 0.15);
 }
 .post_full .post_permalink {
-	background: rgba(0, 0, 0, 0.25) none repeat scroll 0% 0%;
+    background: rgba(0, 0, 0, 0.25) none repeat scroll 0% 0%;
 }
 .post_full .post_footer {
-	color: rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.4);
 }
 .post_full .post_info .post_info_fence .reblog_source .post_info_link {
-	color: rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.4);
 }
 .post .post-source-footer {
-	color: rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.4);
 }
 .post .post-source-footer a.post-source-link {
-	color: rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.4);
 }
 .post_full .post_tags .post_tag {
-	color: rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.4);
 }
 .post_full .post_tags, .post_full .post_tags a {
     color: rgba(0, 0, 0, 0.4);
 }
 .post_full.is_conversation .conversation_lines .chat_line:nth-child(2n) {
-	background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;
 }
 .navigation:before{
-	height: 100px;
+    height: 100px;
 }
 .post_full .post_tags:after {
-	background: none;
+    background: none;
 }
 .indash_header_wrapper .navigation .navigation_inner {
-	text-align: right;
-	white-space: normal;
-	line-height: 30px;
+    text-align: right;
+    white-space: normal;
+    line-height: 30px;
 }
 .reblog-list-item {
     border-bottom: 1px solid rgba(0,0,0,.2);
@@ -61,175 +61,183 @@
 .reblog_follow_button i {
     background-color: rgba(0,0,0,.35) !important;
 }
-.post_full .post_header .post_info .reblog_follow_button {
-    color: inherit;
-}
+/*.post_full .post_header .post_info .reblog_follow_button {
+color: inherit;
+}*/
 .post_controls .post_control.messaging::before {
     color: rgba(0, 0, 0, 0.4);
 }
 .flag--dashboard-icon-revolution .post_controls .post_control::before{
     color: rgba(0, 0, 0, 0.4);
 }
-    /*following page*/
+/*following page*/
 .follower .info {
-	float: left;
-	width: 346px;
+    float: left;
+    width: 346px;
 }
-
-
+.post_control:not(.liked):not(.reblogged)::before {
+    color: rgba(0, 0, 0, 0.4) !important;
+}
+.post .post_info .reblog_icon {
+    color: rgba(0, 0, 0, 0.4) !important;
+}
+.post .dockable_video_placeholder {
+    color: rgba(0,0,0,.3) !important;
+    border: 2px rgba(0,0,0,.15) dashed !important;
+}
 
 #torcado_controlPanel{
-	width: 100%;
-	background-color: #FFF;
-	border-radius: 3px;
-	position: relative;
-	text-align: center;
-	margin-bottom: 20px;
+    width: 100%;
+    background-color: #FFF;
+    border-radius: 3px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
 }
 .torcado_controlPanelSidebar{
-	position: absolute;
-	left: -85px;
-	top: 0;
-	width: 64px;
-	height: 93px;
+    position: absolute;
+    left: -85px;
+    top: 0;
+    width: 64px;
+    height: 93px;
 }
 .torcado_controlPanelIconWrapper{
-	position: relative;
-	width: 64px;
-	height: 64px;
+    position: relative;
+    width: 64px;
+    height: 64px;
 }
 .torcado_controlPanelIconOutline{
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAAxNJREFUeF7t21FqWwEMBdHufwtdbCqHVByJCwan6o8zMBi9udjG//718eb8/ABfr29L+gF+l4/n/9rH+/7l2Wf8j+0nj4fy7A2+66tf9mr7+UD2+EJJXSV1ldS1GUexhxdK6iqpq6SuzTiKPbxQUldJXSV1bcZR7OGFkrpK6iqpazOOYg8vlNRVUldJXZtxFHt4oaSukrpK6tqMo9jDCyV1ldRVUtdmHMUeXiipq6Sukro24yj28EJJXSV1ldS1GUexhxdK6iqpq6SuzTiKPbxQUldJXSV1bcZR7OGFkrpK6iqpazOOYg8vlNRVUldJXZtxFHt4oaSukrpK6tqMo9jDCyV1ldRVUtdmHMUeXiipq6Sukro24yj28EJJXSV1ldS1GUexhxdK6iqpq6SuzTiKPbxQUldJXSV1bcZR7OGFkrpK6iqpazOOYg8vlNRVUldJXZtxFHt4oaSukrpK6tqMo9jDCyV1ldRVUtdmHMUeXiipq6Sukro24yj28EJJXSV1ldS1GUexhxdK6iqpq6SuzTiKPbxQUldJXSV1bcZR7OGFkrpK6iqpazOOYg8vlNRVUldJXZtxFHt4oaSukrpK6tqMo9jDCyV1ldRVUtdmHMUeXiipq6Sukro24yj28EJJXSV1ldS1GUexhxdK6iqpq6SuzTiKPbxQUldJXSV1bcZR7OGFkrpK6iqpazOOYg8vlNRVUldJXZtxFHt4oaSukrpK6tqMo9jDCyV1ldRVUtdmHMUeXiipq6Sukro24yj28EJJXSV1ldS1GUexhxdK6iqpq6SuzTiKPbxQUldJXSV1bcZR7OGFkrpK6iqpazOOYg8vlNRVUldJXZtxFHt4oaSukrpK6tqMo9jDCyV1ldRVUtdmHMUeXiipq6Sukro24yj28EJJXSV1ldS1GUexhxdK6iqpq6SuzTiKPbxQUldJXSV1bcZR7OGFkrpK6iqpazOOYg8vlNRVUldJXZtxFHt4oaSukrpK6tqMo3j2l7Pv+urf2662nw82z97gVV/9klfbTx4P35qfH+Dr9U35+PgDEEK/jzkrcWIAAAAASUVORK5CYII=);
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	z-index: 10;
-	border-radius: 3px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAAxNJREFUeF7t21FqWwEMBdHufwtdbCqHVByJCwan6o8zMBi9udjG//718eb8/ABfr29L+gF+l4/n/9rH+/7l2Wf8j+0nj4fy7A2+66tf9mr7+UD2+EJJXSV1ldS1GUexhxdK6iqpq6SuzTiKPbxQUldJXSV1bcZR7OGFkrpK6iqpazOOYg8vlNRVUldJXZtxFHt4oaSukrpK6tqMo9jDCyV1ldRVUtdmHMUeXiipq6Sukro24yj28EJJXSV1ldS1GUexhxdK6iqpq6SuzTiKPbxQUldJXSV1bcZR7OGFkrpK6iqpazOOYg8vlNRVUldJXZtxFHt4oaSukrpK6tqMo9jDCyV1ldRVUtdmHMUeXiipq6Sukro24yj28EJJXSV1ldS1GUexhxdK6iqpq6SuzTiKPbxQUldJXSV1bcZR7OGFkrpK6iqpazOOYg8vlNRVUldJXZtxFHt4oaSukrpK6tqMo9jDCyV1ldRVUtdmHMUeXiipq6Sukro24yj28EJJXSV1ldS1GUexhxdK6iqpq6SuzTiKPbxQUldJXSV1bcZR7OGFkrpK6iqpazOOYg8vlNRVUldJXZtxFHt4oaSukrpK6tqMo9jDCyV1ldRVUtdmHMUeXiipq6Sukro24yj28EJJXSV1ldS1GUexhxdK6iqpq6SuzTiKPbxQUldJXSV1bcZR7OGFkrpK6iqpazOOYg8vlNRVUldJXZtxFHt4oaSukrpK6tqMo9jDCyV1ldRVUtdmHMUeXiipq6Sukro24yj28EJJXSV1ldS1GUexhxdK6iqpq6SuzTiKPbxQUldJXSV1bcZR7OGFkrpK6iqpazOOYg8vlNRVUldJXZtxFHt4oaSukrpK6tqMo9jDCyV1ldRVUtdmHMUeXiipq6Sukro24yj28EJJXSV1ldS1GUexhxdK6iqpq6SuzTiKPbxQUldJXSV1bcZR7OGFkrpK6iqpazOOYg8vlNRVUldJXZtxFHt4oaSukrpK6tqMo3j2l7Pv+urf2662nw82z97gVV/9klfbTx4P35qfH+Dr9U35+PgDEEK/jzkrcWIAAAAASUVORK5CYII=);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    border-radius: 3px;
 }
 .torcado_controlPanelIconColor1{
-	width: 25px;
-	height: 58px;
-	position: absolute;
-	z-index: 8;
-	top: 3px;
-	left: 3px;
-	background-color: gray;
+    width: 25px;
+    height: 58px;
+    position: absolute;
+    z-index: 8;
+    top: 3px;
+    left: 3px;
+    background-color: gray;
 }
 .torcado_controlPanelIconColor2{
-	width: 10px;
-	height: 58px;
-	position: absolute;
-	z-index: 8;
-	top: 3px;
-	left: 29px;
-	background-color: rgb(163, 163, 163);
+    width: 10px;
+    height: 58px;
+    position: absolute;
+    z-index: 8;
+    top: 3px;
+    left: 29px;
+    background-color: rgb(163, 163, 163);
 }
 .torcado_controlPanelIconColor3{
-	width: 10px;
-	height: 58px;
-	position: absolute;
-	z-index: 8;
-	top: 3px;
-	left: 40px;
-	background-color: rgb(189, 189, 189);
+    width: 10px;
+    height: 58px;
+    position: absolute;
+    z-index: 8;
+    top: 3px;
+    left: 40px;
+    background-color: rgb(189, 189, 189);
 }
 .torcado_controlPanelIconColor4{
-	width: 10px;
-	height: 58px;
-	position: absolute;
-	z-index: 8;
-	top: 3px;
-	left: 51px;
-	background-color: rgb(207, 207, 207);
+    width: 10px;
+    height: 58px;
+    position: absolute;
+    z-index: 8;
+    top: 3px;
+    left: 51px;
+    background-color: rgb(207, 207, 207);
 }
 .torcado_controlPanelSidebarIcons{
-	position: relative;
-	height: 29px;
-	width: 100%;
+    position: relative;
+    height: 29px;
+    width: 100%;
 }
 .torcado_refreshWarning{
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAAbxJREFUSEvNk81KQlEUha+GqIMcKUkNNP+aWTRp3htkPUDPUGE1iOa9QJMEB2mlOPE1Cho0ioJoEBH90CyI4LTWcRvHPPdqdoMWfLDP/lmH6/Y4/0qqndP4LjHOgz2BsVR9EMwK4Boo4Qrkpfw7wSgEmmJswlxI2kYXTFbAm5iaMLcsbaMJBglwLobqrprWdM9SS0j7z4TBANgFH0Bd7qfUzFRIw5g5qbEnIGPDC0Nz4B5os/rGhAoGHBUMOuoIcTcvPbMyNpwwEAYNMdDU1uUCwNisgRMQlvHBQnMJ9CzWvOBwre8C9pZk3FtojIOvxXahqccXEM7ExcYuNAQBl9ZnMOAn6uK9cBSL4Emae2htJdUYFkxa28m+uvAIimLXKxQiwPZiNa/HGbW6OK5hbOsR6BER246QIEvgHdiGNM+1aY2tZkAPeok7hAMXewFsA5qbg5Saz4Y1jG09BvTqLBwBX+yOFFxplJP6kXEHzU3XHZjQE3+Jdi4GHiTpym0lrRYKEQ1jW8836BnjBVkj6clLPaOx1VzI8IIoODOSfnEKoryATIIyqIDqL6EHveip96zFA+DC/UBc/1yO8wnOHFkBoawWjAAAAABJRU5ErkJggg==);
-	background-size: 100%;
-	width: 0;
-	height: 0;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	margin: auto;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAAbxJREFUSEvNk81KQlEUha+GqIMcKUkNNP+aWTRp3htkPUDPUGE1iOa9QJMEB2mlOPE1Cho0ioJoEBH90CyI4LTWcRvHPPdqdoMWfLDP/lmH6/Y4/0qqndP4LjHOgz2BsVR9EMwK4Boo4Qrkpfw7wSgEmmJswlxI2kYXTFbAm5iaMLcsbaMJBglwLobqrprWdM9SS0j7z4TBANgFH0Bd7qfUzFRIw5g5qbEnIGPDC0Nz4B5os/rGhAoGHBUMOuoIcTcvPbMyNpwwEAYNMdDU1uUCwNisgRMQlvHBQnMJ9CzWvOBwre8C9pZk3FtojIOvxXahqccXEM7ExcYuNAQBl9ZnMOAn6uK9cBSL4Emae2htJdUYFkxa28m+uvAIimLXKxQiwPZiNa/HGbW6OK5hbOsR6BER246QIEvgHdiGNM+1aY2tZkAPeok7hAMXewFsA5qbg5Saz4Y1jG09BvTqLBwBX+yOFFxplJP6kXEHzU3XHZjQE3+Jdi4GHiTpym0lrRYKEQ1jW8836BnjBVkj6clLPaOx1VzI8IIoODOSfnEKoryATIIyqIDqL6EHveip96zFA+DC/UBc/1yO8wnOHFkBoawWjAAAAABJRU5ErkJggg==);
+    background-size: 100%;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 .torcado_controlPanelChannelButtonWrapper{
-	display: inline-block;
-	height: 64px;
-	width: 90px;
-	position: relative;
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+    display: inline-block;
+    height: 64px;
+    width: 90px;
+    position: relative;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 .torcado_controlPanelChannelButton{
-	display: inline-block;
-	height: 64px;
-	width: 64px;
-	line-height: 58px;
-	vertical-align: top;
-	cursor: pointer;
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+    line-height: 58px;
+    vertical-align: top;
+    cursor: pointer;
 }
 .torcado_controlPanelChannelSettingsWrapper{
-	display: inline-block;
-	height: 64px;
-	width: 26px;
-	vertical-align: middle;
-	position: relative;
-	border-width: 1px 1px 1px 0px;
-	border-style: solid solid solid none;
-	border-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.2) -moz-use-text-color;
-	border-radius: 0 3px 3px 0;
-	box-sizing: border-box;
-	opacity: 0.35;
-	-webkit-transition-duration: 0.25s;
-	transition-duration: 0.25s;
-	-webkit-transition-timing-function: ease;
-	transition-timing-function: ease;
+    display: inline-block;
+    height: 64px;
+    width: 26px;
+    vertical-align: middle;
+    position: relative;
+    border-width: 1px 1px 1px 0px;
+    border-style: solid solid solid none;
+    border-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.2) -moz-use-text-color;
+    border-radius: 0 3px 3px 0;
+    box-sizing: border-box;
+    opacity: 0.35;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
 }
 .torcado_controlPanelChannelButtonWrapper:hover .torcado_controlPanelChannelSettingsWrapper{
-	opacity: 1;
+    opacity: 1;
 }
 .torcado_controlPanelChannelButtonBorder{
-	width: 64px;
-	height: 64px;
-	border-width: 1px 1px 4px;
-	border-style: solid;
-	border-color: rgba(0, 0, 0, 0.2);
-	box-sizing: border-box;
-	overflow: hidden;
+    width: 64px;
+    height: 64px;
+    border-width: 1px 1px 4px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    overflow: hidden;
 }
 /*
 .torcado_controlPanelChannelButtonBorder{
-	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAA8CAIAAACxa54YAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAAFRJREFUaEPtzgENADAQA6H5N93JIJ8cCng7q7pQXaguVBeqC9WF6kJ1obpQXaguVBeqC9WF6kJ1obpQXaguVBeqC9WF6kJ1obpQXaguVBeqC2fr2weP527ujCbl6gAAAABJRU5ErkJggg==");
-	background-position: center center;
-	background-repeat: no-repeat;
+background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAA8CAIAAACxa54YAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAAFRJREFUaEPtzgENADAQA6H5N93JIJ8cCng7q7pQXaguVBeqC9WF6kJ1obpQXaguVBeqC9WF6kJ1obpQXaguVBeqC9WF6kJ1obpQXaguVBeqC2fr2weP527ujCbl6gAAAABJRU5ErkJggg==");
+background-position: center center;
+background-repeat: no-repeat;
 }
 */
 .torcado_controlPanelChannelButtonText{
-	padding: 3px;
-	word-wrap: break-word;
-	box-sizing: border-box;
-	display: inline-block;
-	vertical-align: middle;
-	line-height: normal;
-	width: 100%;
-	text-align: center;
-	/*font: 14px/1.4 Courier,monospace;*/
+    padding: 3px;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    width: 100%;
+    text-align: center;
+    /*font: 14px/1.4 Courier,monospace;*/
 }
 .torcado_controlPanelChannelSettingsButton {
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAANdJREFUSEu9lIENwyAMBBkiW3Sa7D8MxQgiY84UqgDSKeUMjxOkhhjjEVA61EG1n6DcAcodoPRI45O45Un1ESg9yiEZqo9gGcJVAp/O5XdxFapd1VlYtoFLUJ7Asu9+FvfuUAomYArKqaAUbEii6VbmqpbRdQvLPgQ/iXi1xl0ntBPoUtBrLHZtoTuwnfCmfw7q9rSTU2/0yP7Ad+9IYwK6EJmrWkbXLSgFGzID5VRYQreTrH06s3kJyhNYnvr39ihhGaqPQOmRRu3cvQsPlDtAuQOU7xPDF0Ep1PqtdPdzAAAAAElFTkSuQmCC");
     height: 26px;
-	cursor: pointer;
+    cursor: pointer;
 }
 .torcado_controlPanelChannelAddButton {
     width: 26px;
@@ -237,78 +245,78 @@
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAAKlJREFUSEvtzUEKw0AMQ9G5Yu9/mKmNNkJ8b5IMZBHDc8GjKmvvvXr69yStt3yo5jehPNGqyQfXhRPKE62afHBdOKE80arJB9eFE8oTrZp8cF04oTzRqskH14UTyhOtmnxwXTihPNHSYNEd34cu+z50GX7Ij6n/NKE8wWPKckd5gseU5Y7yBI8pyx3lCR5TljvKEzymLHeUJ3hMWe4oT/B4Ah5PwOPz9voDJw8i96G/pzkAAAAASUVORK5CYII=");
     position: absolute;
     bottom: 1px;
-	cursor: pointer;
+    cursor: pointer;
 }
 #torcado_controlPanelChannelAddInputWrapper{
-	border-radius: 16px;
-	z-index: 1000;
-	min-width: 146px;
-	background-color: #FFF;
-	border: 3px solid rgba(0, 0, 0, 0.35);
-	vertical-align: top;
-	clear: both;
-	position: absolute;
-	top: 70px;
-	margin-left: 31px;
-	-webkit-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	transform: translateX(-50%);
-	white-space: nowrap;
-	padding: 4px 4px 3px;
-	left: 50%;
+    border-radius: 16px;
+    z-index: 1000;
+    min-width: 146px;
+    background-color: #FFF;
+    border: 3px solid rgba(0, 0, 0, 0.35);
+    vertical-align: top;
+    clear: both;
+    position: absolute;
+    top: 70px;
+    margin-left: 31px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    white-space: nowrap;
+    padding: 4px 4px 3px;
+    left: 50%;
 }
 #torcado_controlPanelChannelAddInputWrapper span{
-	white-space: pre;
+    white-space: pre;
 }
 .torcado_triTopOuter{
-	border-color: transparent transparent #A6A6A6;
-	height: 0px;
-	position: absolute;
-	left: 0px;
-	right: 0px;
-	margin: auto;
-	top: -12px;
-	border-style: solid;
-	width: 0px;
-	border-width: 0px 11px 12px 13px;
+    border-color: transparent transparent #A6A6A6;
+    height: 0px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    top: -12px;
+    border-style: solid;
+    width: 0px;
+    border-width: 0px 11px 12px 13px;
 }
 .torcado_triTopInner{
-	border-color: transparent transparent #FFF;
-	height: 0px;
-	border-style: solid;
-	width: 0px;
-	left: -9px;
-	right: 0px;
-	position: absolute;
-	top: 4px;
-	border-width: 0px 7px 8px 9px;
+    border-color: transparent transparent #FFF;
+    height: 0px;
+    border-style: solid;
+    width: 0px;
+    left: -9px;
+    right: 0px;
+    position: absolute;
+    top: 4px;
+    border-width: 0px 7px 8px 9px;
 }
 .torcado_controlPanelChannelAddFormInput{
-	background-color: #DDD;
-	border-radius: 11px;
-	border-top: 3px solid rgba(0, 0, 0, 0.2);
-	line-height: 16px;
-	padding: 0px 8px;
-	height: 20px;
-	min-width: 220px;
-	white-space: pre;
-	font: inherit;
+    background-color: #DDD;
+    border-radius: 11px;
+    border-top: 3px solid rgba(0, 0, 0, 0.2);
+    line-height: 16px;
+    padding: 0px 8px;
+    height: 20px;
+    min-width: 220px;
+    white-space: pre;
+    font: inherit;
 }
 .torcado_controlPanelChannelAddFormButton{
-	height: 14px;
-	width: 14px;
-	opacity: 0.25;
-	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAA8tJREFUWEe9WM9LG0EYnWhMFI0ajb+oUVqh1kMxCNaDYIVe4kE9SRF76z+gF/0H2oB6K0VbeqiE+oN4sGgReii0eLVKj4WC9tyLpdS2SJu+F111d781m2Q2Dx7zzX6zs4+ZnZnvG5UP5ufn/d3d3feampoe1dbWvg2FQoeVlZW//X5/urS0NF1VVXWCZ1/D4fA7tJnt6uqKT09PB89e9w79/f03m5ubn1RUVHxDNZ0Ly8vLjyKRyPOBgYHbqOsFOr3W0NCwhNE5QVUU4Jbo4y9GNjU4OHgD9cKwuLioOjo6HgaDwe+oih/Ml4FA4Li9vX1ybm7Oh3rumJiYCDY2NiZhih/QRYzmxujoaAi2ewwPD4dqamo+wBQ71c3q6urdeDwegZ0dHLliijMIkXtZR5L/XDGm1YmY7q1EIuH8T3JBoBBfLhaj0egMSju4lXixWp2IffGwvr5+yfq8rKzsF7Tcgm0G9zkUpsZekeJisdj1VCrlw3efWv04nbZQXoAnhI5N2A0NcbAzWFhYsIn0+Xz/ent779CfAY8vFKaOvKBVHLG/v6/w3yVgmtrW1dW9Qnl68OdztubKK8Q9hmlrj/VwPDY2FlKMSqQGOimJI5zEGezs7LyvGDJJTl28QpxtWq3EKn+mGM9JTh3MdVqtxIn2UTHYlJwGW1tb3+AY+iL5rmKh4kho+6EYCUtOEp1trK6uBkZGRqK5iNQhjsR2k1YM0yUnOnudTCYDsDNwKzLfBeFI5hCSA8Hky52dnRLY58gmspAF4UgmOKIDpEhMjUkkYkVRpK5pvczMFDP7kpwGpZG0ipTELS8vFySOxPr4qZgaSs7LpMjNzU1RpBcjZxDbzCdu1LOS00onkT09PfoWhIU4j18oJtWSUyJFrq2tmURaUdCCsBAB9APFjB/TdCQ1kEiRKysrNpG6ptUg0tI/4+PjYdhKMeM3HG5Ikdvb2+cidYsjsTbWUZ6C1xHM+GGKjSVS5MHBQYkX4ri94N++C/sCvI5AIb7gRIpsa2vT9s8ZPNtZzOBdCa8jYIovFYs4ek/6+vpisO3AiEyiEF8sFltaWhifyuBFDoZ3A6b4stdEbPp+amrKD9sZvH7ACbELU+zEK+KbnxGMuLuf4UUOXtiDKXammxQ3NDQUhe0eHElMNxNosVNd5LS6HjkreJGDPW6G1xGoih/Il1ytXBBZ/zk34F0JryOY8aMqftAtuQlzn3PcSgoBryOY8TOpRlUU4ESerRC2bjshvAAzfibVzFuZGjL7ykS/Z2JoM9hkPMeQiVHJ+cGfE5T6D6kS+CVpv6UBAAAAAElFTkSuQmCC");
-	background-size: 100% auto;
-	position: absolute;
-	right: 6px;
-	top: 8px;
-	background-color: transparent;
-	border: none;
-	cursor: pointer;
+    height: 14px;
+    width: 14px;
+    opacity: 0.25;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAA8tJREFUWEe9WM9LG0EYnWhMFI0ajb+oUVqh1kMxCNaDYIVe4kE9SRF76z+gF/0H2oB6K0VbeqiE+oN4sGgReii0eLVKj4WC9tyLpdS2SJu+F111d781m2Q2Dx7zzX6zs4+ZnZnvG5UP5ufn/d3d3feampoe1dbWvg2FQoeVlZW//X5/urS0NF1VVXWCZ1/D4fA7tJnt6uqKT09PB89e9w79/f03m5ubn1RUVHxDNZ0Ly8vLjyKRyPOBgYHbqOsFOr3W0NCwhNE5QVUU4Jbo4y9GNjU4OHgD9cKwuLioOjo6HgaDwe+oih/Ml4FA4Li9vX1ybm7Oh3rumJiYCDY2NiZhih/QRYzmxujoaAi2ewwPD4dqamo+wBQ71c3q6urdeDwegZ0dHLliijMIkXtZR5L/XDGm1YmY7q1EIuH8T3JBoBBfLhaj0egMSju4lXixWp2IffGwvr5+yfq8rKzsF7Tcgm0G9zkUpsZekeJisdj1VCrlw3efWv04nbZQXoAnhI5N2A0NcbAzWFhYsIn0+Xz/ent779CfAY8vFKaOvKBVHLG/v6/w3yVgmtrW1dW9Qnl68OdztubKK8Q9hmlrj/VwPDY2FlKMSqQGOimJI5zEGezs7LyvGDJJTl28QpxtWq3EKn+mGM9JTh3MdVqtxIn2UTHYlJwGW1tb3+AY+iL5rmKh4kho+6EYCUtOEp1trK6uBkZGRqK5iNQhjsR2k1YM0yUnOnudTCYDsDNwKzLfBeFI5hCSA8Hky52dnRLY58gmspAF4UgmOKIDpEhMjUkkYkVRpK5pvczMFDP7kpwGpZG0ipTELS8vFySOxPr4qZgaSs7LpMjNzU1RpBcjZxDbzCdu1LOS00onkT09PfoWhIU4j18oJtWSUyJFrq2tmURaUdCCsBAB9APFjB/TdCQ1kEiRKysrNpG6ptUg0tI/4+PjYdhKMeM3HG5Ikdvb2+cidYsjsTbWUZ6C1xHM+GGKjSVS5MHBQYkX4ri94N++C/sCvI5AIb7gRIpsa2vT9s8ZPNtZzOBdCa8jYIovFYs4ek/6+vpisO3AiEyiEF8sFltaWhifyuBFDoZ3A6b4stdEbPp+amrKD9sZvH7ACbELU+zEK+KbnxGMuLuf4UUOXtiDKXammxQ3NDQUhe0eHElMNxNosVNd5LS6HjkreJGDPW6G1xGoih/Il1ytXBBZ/zk34F0JryOY8aMqftAtuQlzn3PcSgoBryOY8TOpRlUU4ESerRC2bjshvAAzfibVzFuZGjL7ykS/Z2JoM9hkPMeQiVHJ+cGfE5T6D6kS+CVpv6UBAAAAAElFTkSuQmCC");
+    background-size: 100% auto;
+    position: absolute;
+    right: 6px;
+    top: 8px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 #torcado_channelSettingsWrapper{
-	width: 156px;
+    width: 156px;
     height: 244px;
     background-color: #FFF;
     border-radius: 16px;
@@ -318,24 +326,24 @@
     left: 96px;
     position: absolute;
     top: -110px;
-	
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 #torcado_channelSettingsNameForm{
-	background-color: #DDD;
-	border-radius: 11px;
-	border-top: 3px solid rgba(0, 0, 0, 0.2);
-	padding: 0px 8px;
-	height: 20px;
-	white-space: pre;
-	font: inherit;
-	width: 148px;
-	margin-top: 4px;
+    background-color: #DDD;
+    border-radius: 11px;
+    border-top: 3px solid rgba(0, 0, 0, 0.2);
+    padding: 0px 8px;
+    height: 20px;
+    white-space: pre;
+    font: inherit;
+    width: 148px;
+    margin-top: 4px;
 }
 .torcado_channelSettingsRandomizeColor {
     background-image: url("data:image/png;base64,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");
@@ -347,94 +355,94 @@
     left: 22px;
     opacity: 0.3;
     cursor: pointer;
-	-webkit-transition-duration: 0.25s;
-	transition-duration: 0.25s;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
 }
 .torcado_channelSettingsRandomizeColor:hover {
-	opacity: 0.6;
+    opacity: 0.6;
 }
 #torcado_channelSettingsColorForm{
-	width: 64px;
-	height: 22px;
-	background-color: #DDD;
-	margin-top: 3px;
-	border-width: 3px 1px 1px;
-	border-style: solid;
-	border-color: rgba(0, 0, 0, 0.2);
-	border-radius: 3px;
+    width: 64px;
+    height: 22px;
+    background-color: #DDD;
+    margin-top: 3px;
+    border-width: 3px 1px 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
 }
 .torcado_channelSettingsBlogListWrapper{
-	height: 126px;
-	margin: 4px;
-	background-color: rgb(221, 221, 221);
-	border-top: 3px solid rgba(0, 0, 0, 0.2);
-	overflow-y: scroll;
+    height: 126px;
+    margin: 4px;
+    background-color: rgb(221, 221, 221);
+    border-top: 3px solid rgba(0, 0, 0, 0.2);
+    overflow-y: scroll;
 }
 .torcado_channelSettingsBlogList{
-	
+
 }
 .torcado_channelSettingsBlogWrapper{
-	float: left;
-	display: block;
-	position: relative;
-	margin: 2px 0px;
-	padding-right: 3px;
+    float: left;
+    display: block;
+    position: relative;
+    margin: 2px 0px;
+    padding-right: 3px;
 }
 .torcado_channelSettingsRemoveButton{
-	width: 15px;
-	height: 15px;
-	background-color: #AD464A;
-	border-radius: 50%;
-	top: 0px;
-	bottom: 0px;
-	display: inline-block;
-	position: absolute;
-	margin: auto;
-	padding-bottom: 1px;
-	left: 3px;
-	cursor: pointer;
+    width: 15px;
+    height: 15px;
+    background-color: #AD464A;
+    border-radius: 50%;
+    top: 0px;
+    bottom: 0px;
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    padding-bottom: 1px;
+    left: 3px;
+    cursor: pointer;
 }
 .torcado_channelSettingsRemoveButton:before{
-	content: "";
-	display: block;
-	width: 7px;
-	height: 2px;
-	background-color: #FFF;
-	position: absolute;
-	top: 5px;
-	left: 4px;
-	z-index: 1;
+    content: "";
+    display: block;
+    width: 7px;
+    height: 2px;
+    background-color: #FFF;
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    z-index: 1;
 }
 .torcado_channelSettingsRemoveButton:after{
-	content: "";
-	display: block;
-	width: 15px;
-	height: 15px;
-	border-radius: 50%;
-	background-color: #DA5358;
-	position: absolute;
-	top: -2px;
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #DA5358;
+    position: absolute;
+    top: -2px;
 }
 .torcado_channelSettingsRemoveButton:active{
-	top: 0px;
+    top: 0px;
 }
 .torcado_channelSettingsRemoveButton:active:before{
-	top: 7px;
+    top: 7px;
 }
 .torcado_channelSettingsRemoveButton:active:after{
-	top: 0;
+    top: 0;
 }
 .torcado_channelSettingsBlogName{
-	background-color: #FFF;
-	border-bottom: 1px solid rgb(177, 177, 177);
-	padding-bottom: 1px;
-	line-height: 16px;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 22px;
-	margin-top: 1px;
-	word-wrap: break-word;
-	width: 105px;
+    background-color: #FFF;
+    border-bottom: 1px solid rgb(177, 177, 177);
+    padding-bottom: 1px;
+    line-height: 16px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 22px;
+    margin-top: 1px;
+    word-wrap: break-word;
+    width: 105px;
 }
 .torcado_channelSettingsCancel {
     width: 110px;
@@ -446,76 +454,76 @@
     background-color: #DDD;
 }
 .torcado_channelSettingsDelete{
-	width: 50px;
-	height: 24px;
-	position: absolute;
-	right: auto;
-	bottom: 5px;
-	left: 5px;
-	background-color: rgb(222, 89, 94);
+    width: 50px;
+    height: 24px;
+    position: absolute;
+    right: auto;
+    bottom: 5px;
+    left: 5px;
+    background-color: rgb(222, 89, 94);
 }
 .torcado_channelSettingsSave{
-	width: 92px;
-	height: 24px;
-	position: absolute;
-	left: auto;
-	right: 5px;
-	background-color: #529ECC;
-	bottom: 5px;
+    width: 92px;
+    height: 24px;
+    position: absolute;
+    left: auto;
+    right: 5px;
+    background-color: #529ECC;
+    bottom: 5px;
 }
 .torcado_controlPanelNewChannelButton{
-	width: 64px;
-	height: 64px;	
-	display: inline-block;
-	vertical-align: top;
-	position: relative;
+    width: 64px;
+    height: 64px;	
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
 }
 .torcado_controlPanelNewChannelButton:before{
-	content: "";
-	width: 64px;
-	height: 64px;
-	display: block;
-	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABp0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuMTFH80I3AAACCElEQVR4Xu3bUU5DQQiF4e6qa3F1LlUvTa6BXxyw4UrD2OQzmSlwhhffejs+98P74WPl+MgfgzVZnHNiXRbnCNY4ZGfZPV5eMECwJotzTqzL4hzBmh/I7u4X3zBAsCaLc06sy+IcwZoFc3jzhk0iO6p9HxdfBxZPpXc2BxZOpXc2BxZOpXc2BxZOpXc2BxZOpXc2BxZOpXd2C3biXu7EvdyJe7kT9/IK5h9PAvuvIp8/CdU5GeyvhKyW0BD7KyGrJTTE/krIagkNsb8SslpCQ+yvhKyW0BD7KyGrJTTE/krIagkNsb8SslpCQ+yvhKyW0BD7KyGrJTTE/krIei5U970Cvm8FvSVD2vF9K+gtGdKO71sxvV5BhhnyAvi+LPcygw/oxvdluZcZfEA3vi/LvczgA7rxfVnuZQYf0I3vy3IvM/iAbnxflnyeGqL7XgHft4LekiHt+L4V9JYMacf3raD3uSG/pXMy2F8JWS2hIfZXQlZLaIj9lZDVEhpifyVktYSG2F8JWS2hIfZXQlZLaIj9lZDVEhpifyVktYSG2F8JWS2hIfZXQlZLaIj9lUyWV3AFE5rA/qu4lztxL3fiXu7EvdyJfOTvA7+cSu9sDiycSu9sDiycSu9sDiycSu9sDiycSu9sDiycSu/Mw94/nFzhIMGaLM45sS6LcwRrFv5/PL3xz+dv908JMPNUNVpBNgAAAABJRU5ErkJggg==");
-	background-repeat: no-repeat;
-	opacity: 0.2;
-	-webkit-transition-duration: 0.25s;
-	transition-duration: 0.25s;
-	-webkit-transition-timing-function: ease;
-	transition-timing-function: ease;
-	cursor: pointer;
+    content: "";
+    width: 64px;
+    height: 64px;
+    display: block;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABp0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuMTFH80I3AAACCElEQVR4Xu3bUU5DQQiF4e6qa3F1LlUvTa6BXxyw4UrD2OQzmSlwhhffejs+98P74WPl+MgfgzVZnHNiXRbnCNY4ZGfZPV5eMECwJotzTqzL4hzBmh/I7u4X3zBAsCaLc06sy+IcwZoFc3jzhk0iO6p9HxdfBxZPpXc2BxZOpXc2BxZOpXc2BxZOpXc2BxZOpXc2BxZOpXd2C3biXu7EvdyJe7kT9/IK5h9PAvuvIp8/CdU5GeyvhKyW0BD7KyGrJTTE/krIagkNsb8SslpCQ+yvhKyW0BD7KyGrJTTE/krIagkNsb8SslpCQ+yvhKyW0BD7KyGrJTTE/krIei5U970Cvm8FvSVD2vF9K+gtGdKO71sxvV5BhhnyAvi+LPcygw/oxvdluZcZfEA3vi/LvczgA7rxfVnuZQYf0I3vy3IvM/iAbnxflnyeGqL7XgHft4LekiHt+L4V9JYMacf3raD3uSG/pXMy2F8JWS2hIfZXQlZLaIj9lZDVEhpifyVktYSG2F8JWS2hIfZXQlZLaIj9lZDVEhpifyVktYSG2F8JWS2hIfZXQlZLaIj9lUyWV3AFE5rA/qu4lztxL3fiXu7EvdyJfOTvA7+cSu9sDiycSu9sDiycSu9sDiycSu9sDiycSu9sDiycSu/Mw94/nFzhIMGaLM45sS6LcwRrFv5/PL3xz+dv908JMPNUNVpBNgAAAABJRU5ErkJggg==");
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+    cursor: pointer;
 }
 .torcado_controlPanelNewChannelButton:hover:before{
-	opacity: 0.4;
+    opacity: 0.4;
 }
 .torcado_newChannelButtonPreviewWrapper{
-	width: 64px;
-	height: 88px;
-	margin: 6px auto auto;
+    width: 64px;
+    height: 88px;
+    margin: 6px auto auto;
 }
 .torcado_newChannelButtonPreviewBackground{
-	width: 64px;
-	height: 64px;
-	background-color: rgb(132, 209, 230);
+    width: 64px;
+    height: 64px;
+    background-color: rgb(132, 209, 230);
 }
 .torcado_newChannelButtonPreviewBorder{
-	border-width: 1px 1px 4px;
-	border-style: solid;
-	border-color: rgba(0, 0, 0, 0.2);
-	height: 64px;
-	width: 64px;
-	box-sizing: border-box;
-	line-height: 55px;
-	overflow: hidden;
+    border-width: 1px 1px 4px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.2);
+    height: 64px;
+    width: 64px;
+    box-sizing: border-box;
+    line-height: 55px;
+    overflow: hidden;
 }
 .torcado_newChannelButtonPreviewText{
-	vertical-align: middle;
-	line-height: normal;
-	display: inline-block;
-	margin-left: -1px;
-	box-sizing: border-box;
-	width: 100%;
-	text-align: center;
-	word-wrap: break-word;
+    vertical-align: middle;
+    line-height: normal;
+    display: inline-block;
+    margin-left: -1px;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    word-wrap: break-word;
 }
 .torcado_newChannelRandomizeColor {
     background-image: url("data:image/png;base64,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");
@@ -527,21 +535,21 @@
     left: 22px;
     opacity: 0.3;
     cursor: pointer;
-	-webkit-transition-duration: 0.25s;
-	transition-duration: 0.25s;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
 }
 .torcado_newChannelRandomizeColor:hover {
     opacity: 0.6;
 }
 #torcado_newChannelButtonColorForm{
-	width: 64px;
-	height: 22px;
-	background-color: rgb(221, 221, 221);
-	margin-top: 4px;
-	border-width: 3px 1px 1px;
-	border-style: solid;
-	border-color: rgba(0, 0, 0, 0.2);
-	border-radius: 3px;
+    width: 64px;
+    height: 22px;
+    background-color: rgb(221, 221, 221);
+    margin-top: 4px;
+    border-width: 3px 1px 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
 }
 
 .torcado_controlPanelSettingsWrapper {
@@ -549,210 +557,210 @@
     height: 26px;
     background-color: white;
     border-top: 3px solid rgba(0, 0, 0, 0.2);
-	border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
 }
 .torcado_controlPanelExportButton{
-	width: 16px;
-	height: 16px;
-	float: left;
-	margin: 5px;
-	border-radius: 2px;
-	opacity: 0.5;
-	-webkit-transition-duration: 0.25s;
-	transition-duration: 0.25s;
-	cursor: pointer;
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAA15JREFUaEPtm8trE1EUxjOm8YVFulIQRLeV7nTnvsskTRRRKUmTKPgniKWlJE0VpFDFvJxpsSs3Ko2Kq7ZgEe2MC7cF3Sk0InRhu7LoOUkG0psztzPJ3HnUFH7c8OXcmfNl7v0yadMA/oQVdTA8/3kJ2Ab+ukQNiI7NyMFUviKl8k8lfAxakNWwZ7Oabm6reRK3qaWny6Fb2ScSjEfTuaIE2o/wvDbRqmVypRBbR2mpvCwF4AB45aiTuYLeII7YtK5HFDWrawhbx2rpXDk0NqME0aCby7INtuk9zyvalBlzutZYoq0H8ABs00TNpBlzmWwB9qHS5zmDbNNUDTDJ1lGG07lSfQ9SB3ANtmmqpg4sV545HPWQoQ/gEmzTVI0OL3haQ4ac7BbsFaFq9sAJHr+GDEVb8Pg9ZCjagsffIUPBBI/vQ4ZCD56DEzIUzeDxS8j8ZGtMMu6TkNFGQMePUmQ9h+/x8nvvLdFWc+zVtKr5ImTMGKE0z4ZMvLR61ooRnuZkyPwGxoFKi2bEy1h57YwVI5Tm5J3MRlhRhzK54qGbsy/6iedFgek7Itagoi3FKmsDaA5f4dtTc05viZqoE/6BO4p7iQeLfa3mMtPlw0StUEQY3IzKn4YhxdrMoUbUC8Vugx8gIM4bmUONmCMUOw0+vj5XPcEzhxoxTyh2GMRfO95gjVDmUGPmCqfbE24AQ2bNoQb3lgkgGVHW0zA3AWPGnKbehXEToPowpBuDr4CTVsx1q4Hhy0wP+9KJwfpbQKywIokyYqQl7y8cI/rhYtlgRF4fFW2Ep1E98bBuUFGPO2HESKN64tGBQW129OFzuKEVa8RIo3ri0ckeRF5fLSyfFmmE0uLF1SNEL1w6NYh8jcofL4kwYqTB/r9D9MGlG4PIDpC00jTULzTQnjXHRVOaor2DcReg+jCkW4M6pWuP3vSbuSLEXKHYeUIVEvbcfleTmCcUu1/RX8Awb6ky9cIRsWR2Yb9MwCeLIHU1iXqhCNwT2ltggL2adK04RG/6bxDtFw9KyBixA+GTQXNXCiuniOeF4uQrugxL9guhC8XxJeM0PYN+p2fQ7/QM+p3/wqCnvhBrM9to0FNfabaZKhjUvPSldDvZisjqYP3v9PDgAghu/1uBXaCHasNcIPAPImNuGmc59dwAAAAASUVORK5CYII=);
-	background-size: 100%;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin: 5px;
+    border-radius: 2px;
+    opacity: 0.5;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    cursor: pointer;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAA15JREFUaEPtm8trE1EUxjOm8YVFulIQRLeV7nTnvsskTRRRKUmTKPgniKWlJE0VpFDFvJxpsSs3Ko2Kq7ZgEe2MC7cF3Sk0InRhu7LoOUkG0psztzPJ3HnUFH7c8OXcmfNl7v0yadMA/oQVdTA8/3kJ2Ab+ukQNiI7NyMFUviKl8k8lfAxakNWwZ7Oabm6reRK3qaWny6Fb2ScSjEfTuaIE2o/wvDbRqmVypRBbR2mpvCwF4AB45aiTuYLeII7YtK5HFDWrawhbx2rpXDk0NqME0aCby7INtuk9zyvalBlzutZYoq0H8ABs00TNpBlzmWwB9qHS5zmDbNNUDTDJ1lGG07lSfQ9SB3ANtmmqpg4sV545HPWQoQ/gEmzTVI0OL3haQ4ac7BbsFaFq9sAJHr+GDEVb8Pg9ZCjagsffIUPBBI/vQ4ZCD56DEzIUzeDxS8j8ZGtMMu6TkNFGQMePUmQ9h+/x8nvvLdFWc+zVtKr5ImTMGKE0z4ZMvLR61ooRnuZkyPwGxoFKi2bEy1h57YwVI5Tm5J3MRlhRhzK54qGbsy/6iedFgek7Itagoi3FKmsDaA5f4dtTc05viZqoE/6BO4p7iQeLfa3mMtPlw0StUEQY3IzKn4YhxdrMoUbUC8Vugx8gIM4bmUONmCMUOw0+vj5XPcEzhxoxTyh2GMRfO95gjVDmUGPmCqfbE24AQ2bNoQb3lgkgGVHW0zA3AWPGnKbehXEToPowpBuDr4CTVsx1q4Hhy0wP+9KJwfpbQKywIokyYqQl7y8cI/rhYtlgRF4fFW2Ep1E98bBuUFGPO2HESKN64tGBQW129OFzuKEVa8RIo3ri0ckeRF5fLSyfFmmE0uLF1SNEL1w6NYh8jcofL4kwYqTB/r9D9MGlG4PIDpC00jTULzTQnjXHRVOaor2DcReg+jCkW4M6pWuP3vSbuSLEXKHYeUIVEvbcfleTmCcUu1/RX8Awb6ky9cIRsWR2Yb9MwCeLIHU1iXqhCNwT2ltggL2adK04RG/6bxDtFw9KyBixA+GTQXNXCiuniOeF4uQrugxL9guhC8XxJeM0PYN+p2fQ7/QM+p3/wqCnvhBrM9to0FNfabaZKhjUvPSldDvZisjqYP3v9PDgAghu/1uBXaCHasNcIPAPImNuGmc59dwAAAAASUVORK5CYII=);
+    background-size: 100%;
 }
 .torcado_controlPanelExportButton:hover{
-	opacity: 1;
+    opacity: 1;
 }
 .torcado_controlPanelSwitchWrapper{
-	display: inline-block;
-	float: right;
-	margin-left: 16px;
-	position: relative;
+    display: inline-block;
+    float: right;
+    margin-left: 16px;
+    position: relative;
 }
 .torcado_controlPanelSwitchWrapper p{
-	display: inline-block;
-	vertical-align: top;
-	line-height: 26px;
-	margin-right: 4px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 26px;
+    margin-right: 4px;
 }
 .torcado_controlPanelSwitchHighlight{
-	box-shadow: 0px 0 8px rgba(255, 197, 48, 1);
-	padding: 3px 0px 3px 3px;
-	margin: 5px 1px 3px 0px;
-	border: 1px solid rgba(255, 222, 52, 1);
-	position: absolute;
-	width: 136px;
-	top: -6px;
-	left: -3px;
-	height: 20px;
-	border-radius: 4px;
-	background-color: rgba(255, 224, 65, 0.29);
-	/*z-index: 1;*/
+    box-shadow: 0px 0 8px rgba(255, 197, 48, 1);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgba(255, 222, 52, 1);
+    position: absolute;
+    width: 136px;
+    top: -6px;
+    left: -3px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: rgba(255, 224, 65, 0.29);
+    /*z-index: 1;*/
 }
 .torcado_tooltip{
-	position: absolute;
-	background-color: rgb(79, 79, 79);
-	width: 190px;
-	top: -32px;
-	padding: 16px;
-	color: rgb(234, 191, 57);
-	border: 3px solid rgb(31, 31, 31);
-	border-radius: 12px;
-	left: 37px;
-	z-index: 20;
-	text-align: center;
+    position: absolute;
+    background-color: rgb(79, 79, 79);
+    width: 190px;
+    top: -32px;
+    padding: 16px;
+    color: rgb(234, 191, 57);
+    border: 3px solid rgb(31, 31, 31);
+    border-radius: 12px;
+    left: 37px;
+    z-index: 20;
+    text-align: center;
 }
 .torcado_tooltip:before{
-	content: "";
-	border-color: transparent #1F1F1F transparent;
-	height: 0px;
-	position: absolute;
-	left: -16px;
-	margin: auto;
-	border-style: solid;
-	width: 0px;
-	border-width: 16px 15px 17px 0;
-	top: 0;
-	bottom: 0;
+    content: "";
+    border-color: transparent #1F1F1F transparent;
+    height: 0px;
+    position: absolute;
+    left: -16px;
+    margin: auto;
+    border-style: solid;
+    width: 0px;
+    border-width: 16px 15px 17px 0;
+    top: 0;
+    bottom: 0;
 }
 .torcado_tooltip:after{
-	content: "";
-	border-color: transparent #4F4F4F transparent;
-	height: 0px;
-	position: absolute;
-	left: -11px;
-	margin: auto;
-	bottom: 0;
-	border-style: solid;
-	width: 0px;
-	border-width: 12px 11px 13px 0;
-	top: 0;
+    content: "";
+    border-color: transparent #4F4F4F transparent;
+    height: 0px;
+    position: absolute;
+    left: -11px;
+    margin: auto;
+    bottom: 0;
+    border-style: solid;
+    width: 0px;
+    border-width: 12px 11px 13px 0;
+    top: 0;
 }
 .torcado_tooltip a{
-	color: yellow;
-	text-decoration: underline;
+    color: yellow;
+    text-decoration: underline;
 }
 .torcado_controlPanelSwitchBorder{
-	width: 64px;
-	height: 26px;
-	background-color: rgb(204, 204, 204);
-	border-width: 3px 1px 1px;
-	border-style: solid;
-	border-color: rgba(0, 0, 0, 0.3);
-	-webkit-border-image: none;
-	-o-border-image: none;
-	border-image: none;
-	border-radius: 3px;
-	box-sizing: border-box;
-	position: relative;
-	right: 0px;
-	cursor: pointer;
-	display: inline-block;
+    width: 64px;
+    height: 26px;
+    background-color: rgb(204, 204, 204);
+    border-width: 3px 1px 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.3);
+    -webkit-border-image: none;
+    -o-border-image: none;
+    border-image: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    position: relative;
+    right: 0px;
+    cursor: pointer;
+    display: inline-block;
 }
 .torcado_controlPanelSwitchBar{
-	height: 26px;
-	width: 32px;
+    height: 26px;
+    width: 32px;
     border-width: 1px 1px 3px;
     border-style: solid;
     border-color: rgba(0, 0, 0, 0.3);
-	box-sizing: border-box;
-	border-radius: 0px 3px 3px 0px;
-	position: relative;
-	background-color: rgb(82, 158, 204);
-	top: -3px;
-	left: 31px;
-	-webkit-transition-duration: 0.25s;
-	transition-duration: 0.25s;
-	-webkit-transition-timing-function: ease;
-	transition-timing-function: ease;
+    box-sizing: border-box;
+    border-radius: 0px 3px 3px 0px;
+    position: relative;
+    background-color: rgb(82, 158, 204);
+    top: -3px;
+    left: 31px;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
 }
 #torcado_newChannelWrapper{
-	width: 156px;
-	height: 156px;
-	background-color: rgb(255, 255, 255);
-	border-radius: 16px;
-	border: 3px solid rgba(0, 0, 0, 0.35);
-	vertical-align: top;
-	z-index: 1000;
-	left: 74px;
-	position: absolute;
-	top: -48px;
-	
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+    width: 156px;
+    height: 156px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    border: 3px solid rgba(0, 0, 0, 0.35);
+    vertical-align: top;
+    z-index: 1000;
+    left: 74px;
+    position: absolute;
+    top: -48px;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 #torcado_newChannelForm{
-	display: block;
+    display: block;
 }
 .torcado_button{
-	/*
-	width: 100%;
-	height: 24px;
-	position: absolute;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	margin: auto auto 3px;
-	background-color: rgb(82, 158, 204);
-	border-radius: 3px;
-	border-width: 1px 1px 3px;
-	border-style: solid;
-	border-color: rgba(0, 0, 0, 0.2);
-	box-sizing: border-box;
-	color: rgba(0, 0, 0, 0.65);
-	cursor: pointer;
-	*/
-	border-radius: 3px;
-	border-width: 1px 1px 3px;
-	border-style: solid;
-	border-color: rgba(0, 0, 0, 0.2);
-	box-sizing: border-box;
-	color: rgba(0, 0, 0, 0.65);
-	cursor: pointer;
+    /*
+    width: 100%;
+    height: 24px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto auto 3px;
+    background-color: rgb(82, 158, 204);
+    border-radius: 3px;
+    border-width: 1px 1px 3px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.65);
+    cursor: pointer;
+    */
+    border-radius: 3px;
+    border-width: 1px 1px 3px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.65);
+    cursor: pointer;
 }
 .torcado_button:active{
-	height: 22px;
-	border-width: 1px;
+    height: 22px;
+    border-width: 1px;
 }
 .torcado_newChannelSave{
-	width: 100px;
-	background-color: rgb(82, 158, 204);
-	position: absolute;
-	left: 0px;
-	right: 0px;
-	bottom: 0px;
-	margin: auto auto 3px;	
+    width: 100px;
+    background-color: rgb(82, 158, 204);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto auto 3px;	
 }
 .torcado_triLeftOuter{
-	height: 0px;
-	position: absolute;
-	border-style: solid;
-	width: 0px;
-	border-width: 11px 12px 13px 0px;
-	border-color: transparent #A6A6A6;
-	bottom: 0px;
-	left: -12px;
-	top: 0px;
-	margin: auto;
+    height: 0px;
+    position: absolute;
+    border-style: solid;
+    width: 0px;
+    border-width: 11px 12px 13px 0px;
+    border-color: transparent #A6A6A6;
+    bottom: 0px;
+    left: -12px;
+    top: 0px;
+    margin: auto;
 }
 .torcado_triLeftInner{
-	border-color: transparent rgb(255, 255, 255);
-	height: 0px;
-	border-style: solid;
-	width: 0px;
-	right: 0px;
-	top: -7px;
-	position: absolute;
-	left: 4px;
-	border-width: 7px 8px 9px 0px;
+    border-color: transparent rgb(255, 255, 255);
+    height: 0px;
+    border-style: solid;
+    width: 0px;
+    right: 0px;
+    top: -7px;
+    position: absolute;
+    left: 4px;
+    border-width: 7px 8px 9px 0px;
 }
 .torcado_newChannelFormInput{
     background-color: #DDD;
@@ -767,164 +775,164 @@
 }
 
 .torcado_pageEnd{
-	width: 100%;
-	height: 64px;
-	background-color: #FFF;
+    width: 100%;
+    height: 64px;
+    background-color: #FFF;
 }
 
 .addUserButton{
-	position: absolute;
-	width: 12px;
-	height: 64px;
-	top: 0;
-	right: -31px;
-	background-color: #FFF;
-	border-radius: 3px;
+    position: absolute;
+    width: 12px;
+    height: 64px;
+    top: 0;
+    right: -31px;
+    background-color: #FFF;
+    border-radius: 3px;
 }
 .torcado_addUserWrapper{
-	position: absolute;
-	left: 565px;
-	width: 64px;
-	height: auto;
-	top: 0px;
+    position: absolute;
+    left: 565px;
+    width: 64px;
+    height: auto;
+    top: 0px;
 }
 .torcado_addUserButton{
-	height: 64px;
-	width: 12px;
-	position: relative;
-	background-color: white;
-	border-radius: 3px;
-	-webkit-transition: width 0.5s ease;
-	transition: width 0.5s ease;
-	cursor: pointer;
+    height: 64px;
+    width: 12px;
+    position: relative;
+    background-color: white;
+    border-radius: 3px;
+    -webkit-transition: width 0.5s ease;
+    transition: width 0.5s ease;
+    cursor: pointer;
 }
 .torcado_addUserButtonIconBefore{
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 6px 0 6px 5px;
-	border-color: transparent transparent transparent rgba(0, 0, 0, 0.2);
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	right: 0px;
-	bottom: 0px;
-	margin: auto;
-	-webkit-transition-duration: 0.5s;
-	transition-duration: 0.5s;
-	-webkit-transition-timing-function: ease;
-	transition-timing-function: ease;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 6px 5px;
+    border-color: transparent transparent transparent rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
 }
 .torcado_addUserButtonIconAfter{
-	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjEwMPRyoQAAAM1JREFUeF7tz9EJxAAMw9Bu1f03uwWE4CAFY/xA34mfmZmZmZnPvX9Wh0ZadWikVYdGWnVopFWHRlp1aKRVh0ZadWikVYdGWnVopFWHRlp1aKRVh0ZadWikVYdGWnHoyeTO0ZHkztGR5M7RkeTO0ZHkztGR5M7RkeTO0ZHkztGR5M7RkeTO0ZHkztGR5OLQk1YdGmnVoZFWHRpp1aGRVh0aadWhkVYdGmnVoZFWHRpp1aGRVh0aadWhkVYdGmnVoZFWHRppzczMzMx85nl+CTHD8S6sN1AAAAAASUVORK5CYII=");
-	background-size: 100%;
-	width: 0;
-	height: 0;
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	margin: auto;
-	-webkit-transition-duration: 0.5s;
-	transition-duration: 0.5s;
-	-webkit-transition-timing-function: ease;
-	transition-timing-function: ease;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjEwMPRyoQAAAM1JREFUeF7tz9EJxAAMw9Bu1f03uwWE4CAFY/xA34mfmZmZmZnPvX9Wh0ZadWikVYdGWnVopFWHRlp1aKRVh0ZadWikVYdGWnVopFWHRlp1aKRVh0ZadWikVYdGWnHoyeTO0ZHkztGR5M7RkeTO0ZHkztGR5M7RkeTO0ZHkztGR5M7RkeTO0ZHkztGR5OLQk1YdGmnVoZFWHRpp1aGRVh0aadWhkVYdGmnVoZFWHRpp1aGRVh0aadWhkVYdGmnVoZFWHRppzczMzMx85nl+CTHD8S6sN1AAAAAASUVORK5CYII=");
+    background-size: 100%;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
 }
 .torcado_addUserWrapper:hover .torcado_addUserButton{
-	width: 64px;
+    width: 64px;
 }
 .torcado_addUserButton:hover .torcado_addUserButtonIconBefore{
-	border-width: 0px 0px 0px 0px;
+    border-width: 0px 0px 0px 0px;
 }
 .torcado_addUserButton:hover .torcado_addUserButtonIconAfter{
-	width: 64px;
-	height: 64px;
+    width: 64px;
+    height: 64px;
 }
 .torcado_addUserChannels{
-	margin-top: 8px;
-	border-radius: 3px;
-	max-height: 300px;
-	overflow-y: hidden;
-	height: 0;
-	-webkit-transition-timing-function: ease;
-	transition-timing-function: ease;
-	-webkit-transition-duration: 0.8s;
-	transition-duration: 0.8s;
-	cursor: pointer;
-	position: relative;
-	z-index: 1;
+    margin-top: 8px;
+    border-radius: 3px;
+    max-height: 300px;
+    overflow-y: hidden;
+    height: 0;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
 }
 .torcado_addUserChannelsSpan{
-	display: block;
-	overflow: hidden;
-	border-radius: 3px;
-	border: 3px solid rgba(0,0,0,0.3);
+    display: block;
+    overflow: hidden;
+    border-radius: 3px;
+    border: 3px solid rgba(0,0,0,0.3);
 }
 .torcado_addUserChannelButton{
-	position: relative;
+    position: relative;
 }
 .torcado_addUserChannelButtonIndicator{
-	width: 6px;
-	height: 6px;
-	border-radius: 50%;
-	background-color: rgba(0, 0, 0, 0.3);
-	position: absolute;
-	top: 3px;
-	left: 3px;
-	display: none;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    display: none;
 }
 .torcado_addUserChannelButtonText {
-	height: auto;
-	border-bottom: 4px solid rgba(0, 0, 0, 0.2);
-	text-align: center;
-	padding: 3px;
+    height: auto;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 3px;
 }
 .torcado_blogPreviewAddButtonWrapper .torcado_blogPreviewAddButton{
-	width: 32px;
-	height: 32px;
-	position: absolute;
-	right: 0;
-	top: 0;
-	box-shadow: 0px 0px 36px rgba(0,0,0,.5);
-	border-radius: 2px;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    box-shadow: 0px 0px 36px rgba(0,0,0,.5);
+    border-radius: 2px;
     overflow: hidden;
-	background-color: rgba(0,0,0,0.25);
-	cursor: pointer;
+    background-color: rgba(0,0,0,0.25);
+    cursor: pointer;
 }
 .torcado_blogPreviewAddButtonBar{
-	position: absolute;
-	right: 0;
-	width: 5px;
-	height: 32px;
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAgCAYAAADaDrJgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAACVJREFUKFNj+P//fwUQI4NQkCAIo4BRQTQwKogGqCCIlhT/hwIA011dW1T2PxgAAAAASUVORK5CYII=);
-	-webkit-transition-duration: 0.5s;
-	transition-duration: 0.5s;
+    position: absolute;
+    right: 0;
+    width: 5px;
+    height: 32px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAgCAYAAADaDrJgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAACVJREFUKFNj+P//fwUQI4NQkCAIo4BRQTQwKogGqCCIlhT/hwIA011dW1T2PxgAAAAASUVORK5CYII=);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
 }
 .torcado_blogPreviewAddButton .torcado_blogPreviewAddButtonBar:nth-child(2){
-	right: 6px;
+    right: 6px;
 }
 .torcado_blogPreviewAddButton .torcado_blogPreviewAddButtonBar:nth-child(3){
-	right: 12px;
+    right: 12px;
 }
 .torcado_blogPreviewAddButton:hover .torcado_blogPreviewAddButtonBar {
     right: 0;
 }
 .torcado_blogPreviewAddButton:hover .torcado_blogPreviewAddButtonPlusWrapper{
-	width: 32px;
+    width: 32px;
 }
 .torcado_blogPreviewAddButton:hover .torcado_blogPreviewAddButtonPlusIcon{
-	width: 32px;
-	height: 32px;
+    width: 32px;
+    height: 32px;
 }
 .torcado_blogPreviewAddButtonPlusWrapper{
-	position: relative;
-	width: 14px;
-	height: 32px;
-	border-radius: 3px;
-	-webkit-transition-duration: 0.5s;
-	transition-duration: 0.5s;
-	overflow: hidden;
+    position: relative;
+    width: 14px;
+    height: 32px;
+    border-radius: 3px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    overflow: hidden;
 }
 .torcado_blogPreviewAddButtonPlusIcon{
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAAWVJREFUeF7t0EFqBUEMA9Hc/9I/BGqljVshBTHdD8RsjDXur8/l3gPwvdZ7AL7Xeg/A91rvAfhe6z0AX9tPz2+j0guQRzVR6QXIo5qo9ALkUU1UegHyqCYqvQB5VBOVXoA8qolKL0Ae1USlFyCPaqLSC5BHNVHpBcijmqj0AuRRTVR6AfKoJiq9AHlUE5VegDyqiaopyB/bkNHREHL5hoyOhpDLN2R0NIRcviGjoyHk8g0ZHQ0hl2/I6GgIuXxDRkdDyOUbMjoaQi7fkNHREHL5hoyOhpDLN2R0NIRcviGjoyHk8g0ZHQ0hl2/I6GgIuXxDRkdDfyB/rIlKL0Ae1USlFyCPaqLSC5BHNVHpBcijmqj0AuRRTVR6AfKoJiq9AHlUE5VegDyqiUovQB7VRKUXII9qotILkEc1UekFyKOaqPQC5FFNVHoB8qgmKr3gv3sPwPda7wH4Xus9AN9rvQfge6nP5xuHYmLbhHhAYQAAAABJRU5ErkJggg==);
@@ -941,7 +949,7 @@
     transition-duration: 0.5s;
 }
 .torcado_blogPreviewAddButtonPlusIcon:before{
-	content: "";
+    content: "";
     display: block;
     background-color: white;
     width: 100%;
@@ -950,7 +958,7 @@
     top: -9px;
 }
 .torcado_blogPreviewAddButtonPlusIcon:after{
-	content: "";
+    content: "";
     display: block;
     background-color: white;
     width: 100%;
@@ -959,185 +967,185 @@
     bottom: -9px;
 }
 .torcado_blogPreviewAddButtonWrapper{
-	width: 64px;
-	position: absolute;
-	right: 10px;
-	top: 50px;
+    width: 64px;
+    position: absolute;
+    right: 10px;
+    top: 50px;
 }
 .torcado_blogPreviewAddUserChannels{
-	border-radius: 3px;
-	max-height: 116px;
-	overflow-y: hidden;
-	height: 0;
-	-webkit-transition-timing-function: ease;
-	transition-timing-function: ease;
-	-webkit-transition-duration: 0.8s;
-	transition-duration: 0.8s;
-	cursor: pointer;
-	position: relative;
-	color: black;
-	overflow-x: hidden;
-	word-wrap: break-word;
+    border-radius: 3px;
+    max-height: 116px;
+    overflow-y: hidden;
+    height: 0;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    cursor: pointer;
+    position: relative;
+    color: black;
+    overflow-x: hidden;
+    word-wrap: break-word;
 }
 .torcado_blogPreviewAddUserChannelsSpan{
-	display: block;
-	overflow: hidden;
-	border-radius: 3px;
-	word-wrap: break-word;
-	border: 3px solid rgba(0,0,0,0.3);
+    display: block;
+    overflow: hidden;
+    border-radius: 3px;
+    word-wrap: break-word;
+    border: 3px solid rgba(0,0,0,0.3);
 }
 .torcado_overlay{
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 91000;
-	pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 91000;
+    pointer-events: none;
 }
 .torcado_exportBox{
-	width: 500px;
-	height: 350px;
-	background-color: white;
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	margin: auto;
-	padding: 20px;
-	border-radius: 20px;
-	pointer-events: all;
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    pointer-events: all;
 }
 .torcado_exportHeader{
-	width: 100%;
-	height: 40px;
-	text-align: center;
+    width: 100%;
+    height: 40px;
+    text-align: center;
 }
 .torcado_exportInput{
-	resize: none;
-	width: 100%;
-	height: 200px;
+    resize: none;
+    width: 100%;
+    height: 200px;
 }
 .torcado_exportDescription{
-	width: 100%;
-	height: 50px;
+    width: 100%;
+    height: 50px;
 }
 .torcado_exportControls{
-	height: 50px;
-	width: 500px;
-	position: absolute;
-	bottom: 20px;
+    height: 50px;
+    width: 500px;
+    position: absolute;
+    bottom: 20px;
 }
 .torcado_exportClose{
-	width: 90px;
-	height: 30px;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	background-color: #DDD;
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #DDD;
 }
 .torcado_exportImport {
-	width: 90px;
-	height: 30px;
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	background-color: #529ECC;
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #529ECC;
 }
 .torcado_button p {
-	text-align: center;
-	line-height: 27px;
+    text-align: center;
+    line-height: 27px;
 }
 .torcado_button.torcado_exportClose:active{
-	height: 28px;
-	border-width: 1px;
+    height: 28px;
+    border-width: 1px;
 }
 .torcado_button.torcado_exportImport:active{
-	height: 28px;
-	border-width: 1px;
+    height: 28px;
+    border-width: 1px;
 }
 .torcado_button.torcado_buttonDisabled{
-	opacity: 0.4;
+    opacity: 0.4;
 }
 
 .torcado_followerAddButtonWrapper{
-	width: 32px;
-	height: 32px;
-	float: left;
-	left: 0;
-	margin-right: 22px;
-	background-color: #444;
-	position: relative;
-	border-radius: 3px;
-	-webkit-transition-duration: 0.5s;
-	transition-duration: 0.5s;
+    width: 32px;
+    height: 32px;
+    float: left;
+    left: 0;
+    margin-right: 22px;
+    background-color: #444;
+    position: relative;
+    border-radius: 3px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
 }
 .torcado_followerAddButton {
-	width: 32px;
-	height: 32px;
-	position: absolute;
-	right: 0;
-	top: 0;
-	border-radius: 2px;
-	overflow: hidden;
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAAK9JREFUWEfFl8EJwzAAxLL/Ct3VblMqOIgfUQ5cgbDRgf8+5px/dRl3uozGMcbrc3753W+308uDD01UY2hNVGNoTVRjaE1UY2hNVGNoTVRjaE1UY2hNVGNoTVRjaE1UY2hNVGNoTVRjaE1UY2hNVGNoTVRjaE1UY2hNVGNoTVRjaE1UY2hNVGNoTVRjaE1UY2hNVGNoTVRjaE1UY2hNVGN47N1v2KqdXh7c7TLucx5vlwjw3ywNEowAAAAASUVORK5CYII=);
-	cursor: pointer;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 2px;
+    overflow: hidden;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAAK9JREFUWEfFl8EJwzAAxLL/Ct3VblMqOIgfUQ5cgbDRgf8+5px/dRl3uozGMcbrc3753W+308uDD01UY2hNVGNoTVRjaE1UY2hNVGNoTVRjaE1UY2hNVGNoTVRjaE1UY2hNVGNoTVRjaE1UY2hNVGNoTVRjaE1UY2hNVGNoTVRjaE1UY2hNVGNoTVRjaE1UY2hNVGNoTVRjaE1UY2hNVGN47N1v2KqdXh7c7TLucx5vlwjw3ywNEowAAAAASUVORK5CYII=);
+    cursor: pointer;
 }
 .torcado_followerAddButtonPlusWrapper {
-	position: relative;
-	width: 13px;
-	top: 2px;
-	left: 2px;
-	height: 28px;
-	border-radius: 3px;
-	-webkit-transition-duration: 0.5s;
-	transition-duration: 0.5s;
-	overflow: hidden;
-	background-color: white;
+    position: relative;
+    width: 13px;
+    top: 2px;
+    left: 2px;
+    height: 28px;
+    border-radius: 3px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    overflow: hidden;
+    background-color: white;
 }
 .torcado_followerAddButton:hover .torcado_followerAddButtonPlusWrapper {
-	width: 28px;
+    width: 28px;
 }
 .torcado_followerAddButtonPlusIcon {
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAAIxJREFUSEvtzTEOgDAMQ1Huf+liBg9xEPoEialP8hK59bF+sofG3gxd3bsguCg54CC4KDngILgoOeAguCg54CC4KDngIHfF/Giaoh0kH0xTtIPkg2mKdpB8ME3RDpIPpinaQfLBNEU7PMiPHAQXJQccBBclBxwEFyUHHAQXJQccBBclBxwEF7/aQ0NrnaM/0qynX+rIAAAAAElFTkSuQmCC);
-	background-size: 100%;
-	width: 13px;
-	height: 13px;
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	margin: auto;
-	-webkit-transition-duration: 0.5s;
-	transition-duration: 0.5s;
-	background-color: #444;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjExR/NCNwAAAIxJREFUSEvtzTEOgDAMQ1Huf+liBg9xEPoEialP8hK59bF+sofG3gxd3bsguCg54CC4KDngILgoOeAguCg54CC4KDngIHfF/Giaoh0kH0xTtIPkg2mKdpB8ME3RDpIPpinaQfLBNEU7PMiPHAQXJQccBBclBxwEFyUHHAQXJQccBBclBxwEF7/aQ0NrnaM/0qynX+rIAAAAAElFTkSuQmCC);
+    background-size: 100%;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    background-color: #444;
 }
 .torcado_followerAddButton:hover .torcado_followerAddButtonPlusIcon {
-	width: 26px;
-	height: 26px;
+    width: 26px;
+    height: 26px;
 }
 .torcado_followerAddUserChannels{
-	border-radius: 3px;
-	max-height: 300px;
-	overflow-y: hidden;
-	height: 0;
-	-webkit-transition-timing-function: ease;
-	transition-timing-function: ease;
-	-webkit-transition-duration: 0.8s;
-	transition-duration: 0.8s;
-	cursor: pointer;
-	position: relative;
-	z-index: 1;
-	word-wrap: break-word;
-	width: 100%;
+    border-radius: 3px;
+    max-height: 300px;
+    overflow-y: hidden;
+    height: 0;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    word-wrap: break-word;
+    width: 100%;
 }
 .torcado_followerAddUserChannelsSpan{
-	display: block;
-	overflow: hidden;
-	border-radius: 3px;
-	position: relative;
-	/*border: 3px solid rgba(0,0,0,0.3);*/
-	border: 3px solid #444;
+    display: block;
+    overflow: hidden;
+    border-radius: 3px;
+    position: relative;
+    /*border: 3px solid rgba(0,0,0,0.3);*/
+    border: 3px solid #444;
 }
