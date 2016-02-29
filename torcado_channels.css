@@ -85,6 +85,11 @@ color: inherit;
     color: rgba(0,0,0,.3) !important;
     border: 2px rgba(0,0,0,.15) dashed !important;
 }
+p.tmblr-attribution {
+    background-color: rgba(0,0,0,.05) !important;
+    color: rgba(0,0,0,.5) !important;
+}
+
 
 #torcado_controlPanel{
     width: 100%;
