@@ -89,7 +89,9 @@ p.tmblr-attribution {
     background-color: rgba(0,0,0,.05) !important;
     color: rgba(0,0,0,.5) !important;
 }
-
+.post_header .post_info {
+    color: rgba(0, 0, 0, 0.4);
+}
 
 #torcado_controlPanel{
     width: 100%;
